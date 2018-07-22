@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\myinterface.o
+./debug\smallwidget.o
+./debug\fullscreen.o
+./debug\cvutil.o
+./debug\smallthread.o
+./debug\fullthread.o
+./debug\bottomwidget.o
+./debug\moc_mainwindow.o
+./debug\moc_smallwidget.o
+./debug\moc_fullscreen.o
+./debug\moc_bottomwidget.o
+);

@@ -1,0 +1,15 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\myinterface.o
+./release\smallwidget.o
+./release\fullscreen.o
+./release\cvutil.o
+./release\smallthread.o
+./release\fullthread.o
+./release\bottomwidget.o
+./release\moc_mainwindow.o
+./release\moc_smallwidget.o
+./release\moc_fullscreen.o
+./release\moc_bottomwidget.o
+);
