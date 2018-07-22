@@ -25,7 +25,7 @@
 #include "myinterface.h"
 #include "smallthread.h"
 #include "smallwidget.h"
-#include "bottomwidget.h"
+#include "bottomlabel.h"
 
 using namespace cv;
 using namespace std;
@@ -152,7 +152,8 @@ public:
     SmallThread st122;
 
     //1个BottomWidget
-    BottomWidget *bw;
+    QWidget *bw;
+    BottomLabel *bwLabel;
 
     //2个button
     QToolButton * left;
@@ -164,6 +165,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+public:
+    void BottomWidgetShow();
 
 public slots:
   void onTimerOut();

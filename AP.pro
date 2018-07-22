@@ -24,7 +24,7 @@ SOURCES += main.cpp\
     cvutil.cpp \
     smallthread.cpp \
     fullthread.cpp \
-    bottomwidget.cpp
+    bottomlabel.cpp
 
 HEADERS  += mainwindow.h \
     myinterface.h \
@@ -33,6 +33,6 @@ HEADERS  += mainwindow.h \
     cvutil.h \
     smallthread.h \
     fullthread.h \
-    bottomwidget.h
+    bottomlabel.h
 
 FORMS    += mainwindow.ui

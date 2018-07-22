@@ -7,9 +7,9 @@ INPUT(
 ./release\cvutil.o
 ./release\smallthread.o
 ./release\fullthread.o
-./release\bottomwidget.o
+./release\bottomlabel.o
 ./release\moc_mainwindow.o
 ./release\moc_smallwidget.o
 ./release\moc_fullscreen.o
-./release\moc_bottomwidget.o
+./release\moc_bottomlabel.o
 );

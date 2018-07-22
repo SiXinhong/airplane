@@ -7,9 +7,9 @@ INPUT(
 ./debug\cvutil.o
 ./debug\smallthread.o
 ./debug\fullthread.o
-./debug\bottomwidget.o
+./debug\bottomlabel.o
 ./debug\moc_mainwindow.o
 ./debug\moc_smallwidget.o
 ./debug\moc_fullscreen.o
-./debug\moc_bottomwidget.o
+./debug\moc_bottomlabel.o
 );

@@ -43,10 +43,11 @@ MainWindow::MainWindow(QWidget *parent) :
     }
 
     //1个bottomwidget
-    bw = new BottomWidget(widget);
+    bw = new QWidget(widget);
 
     timer=new QTimer();
     timer->setInterval(1500);
+    this->BottomWidgetShow();
 this->setLayout();//调用自定义函数
     this->setWindowState(Qt::WindowMaximized);
     this->setWindowFlags(Qt::WindowCloseButtonHint);
@@ -86,7 +87,7 @@ void MainWindow::setLayout(){
     }
     gridlayout->addWidget(rightButtonWidget,3,7);
 
-    gridlayout->addWidget(bw,4,0,1,7);
+    gridlayout->addWidget(bw,4,0,1,8);
 
     gridlayout->setRowStretch(0, 1);
     gridlayout->setRowStretch(1, 6);
@@ -135,4 +136,14 @@ void MainWindow::resizeEvent(QResizeEvent *){
     for(int i=0;i<12;i++){
         sw1[i]->update();
     }
+    bwLabel->resize(bw->size());
+}
+
+void MainWindow::BottomWidgetShow(){
+    bwLabel = new BottomLabel(bw);
+    bwLabel->setScaledContents(true);
+    QPixmap map("./map/map.jpg");
+    //QPixmap map("./map/0.bmp");
+    bwLabel->setPixmap(map);
+
 }
