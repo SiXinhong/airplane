@@ -41,33 +41,33 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
-
+    void setLayout();
     //24个label
-    QLabel *label11;
-    QLabel *label21;
-    QLabel *label31;
-    QLabel *label41;
-    QLabel *label51;
-    QLabel *label61;
-    QLabel *label71;
-    QLabel *label81;
-    QLabel *label91;
-    QLabel *label101;
-    QLabel *label111;
-    QLabel *label121;
+//    QLabel *label11;
+//    QLabel *label21;
+//    QLabel *label31;
+//    QLabel *label41;
+//    QLabel *label51;
+//    QLabel *label61;
+//    QLabel *label71;
+//    QLabel *label81;
+//    QLabel *label91;
+//    QLabel *label101;
+//    QLabel *label111;
+//    QLabel *label121;
 
-    QLabel *label12;
-    QLabel *label22;
-    QLabel *label32;
-    QLabel *label42;
-    QLabel *label52;
-    QLabel *label62;
-    QLabel *label72;
-    QLabel *label82;
-    QLabel *label92;
-    QLabel *label102;
-    QLabel *label112;
-    QLabel *label122;
+//    QLabel *label12;
+//    QLabel *label22;
+//    QLabel *label32;
+//    QLabel *label42;
+//    QLabel *label52;
+//    QLabel *label62;
+//    QLabel *label72;
+//    QLabel *label82;
+//    QLabel *label92;
+//    QLabel *label102;
+//    QLabel *label112;
+//    QLabel *label122;
 
     //加载到24个QLabel上的24个QImage
     QImage imgLabel11;
@@ -97,31 +97,34 @@ public:
     QImage imgLabel122;
 
     //24个smallwidget
-    SmallWidget *sw11;
-    SmallWidget *sw21;
-    SmallWidget *sw31;
-    SmallWidget *sw41;
-    SmallWidget *sw51;
-    SmallWidget *sw61;
-    SmallWidget *sw71;
-    SmallWidget *sw81;
-    SmallWidget *sw91;
-    SmallWidget *sw101;
-    SmallWidget *sw111;
-    SmallWidget *sw121;
-    SmallWidget *sw12;
-    SmallWidget *sw22;
-    SmallWidget *sw32;
-    SmallWidget *sw42;
-    SmallWidget *sw52;
-    SmallWidget *sw62;
-    SmallWidget *sw72;
-    SmallWidget *sw82;
-    SmallWidget *sw92;
-    SmallWidget *sw102;
-    SmallWidget *sw112;
-    SmallWidget *sw122;
+//    SmallWidget *sw11;
+//    SmallWidget *sw21;
+//    SmallWidget *sw31;
+//    SmallWidget *sw41;
+//    SmallWidget *sw51;
+//    SmallWidget *sw61;
+//    SmallWidget *sw71;
+//    SmallWidget *sw81;
+//    SmallWidget *sw91;
+//    SmallWidget *sw101;
+//    SmallWidget *sw111;
+//    SmallWidget *sw121;
+//    SmallWidget *sw12;
+//    SmallWidget *sw22;
+//    SmallWidget *sw32;
+//    SmallWidget *sw42;
+//    SmallWidget *sw52;
+//    SmallWidget *sw62;
+//    SmallWidget *sw72;
+//    SmallWidget *sw82;
+//    SmallWidget *sw92;
+//    SmallWidget *sw102;
+//    SmallWidget *sw112;
+//    SmallWidget *sw122;
 
+    SmallWidget* sw1[12];
+    SmallWidget* sw2[12];
+    int horizontalMove;//从第几个sw开始显示[0,4]
     //24个samllthread
     SmallThread st11;
     SmallThread st21;
@@ -166,6 +169,7 @@ public slots:
   void onTimerOut();
   void moveLeft();
   void moveRight();
+  void resizeEvent(QResizeEvent *);
 };
 
 #endif // MAINWINDOW_H

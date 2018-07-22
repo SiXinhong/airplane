@@ -5,6 +5,8 @@
 #include <QThread>
 #include <QPoint>
 #include <QMouseEvent>
+#include <QLabel>
+#include <QGridLayout>
 
 #include "myinterface.h"
 
@@ -16,7 +18,13 @@ private:
     int number;
 
 public:
-    explicit SmallWidget(QWidget *parent = 0);
+    explicit SmallWidget(int index, QWidget *parent = 0);
+    QWidget *upWidget;
+    QWidget *downWidget;
+    QLabel *upLabel;
+    QLabel *downLabel;
+    QGridLayout *gridLayout;
+    void resizeEvent(QResizeEvent *);
     void setNumber(int num);
     int getNumber();
 
