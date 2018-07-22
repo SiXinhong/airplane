@@ -16,6 +16,7 @@ private:
 
 public:
     SmallThread(int number);
+    ~SmallThread();
     void run();
     void setNumber(int num);
     int getNumber();

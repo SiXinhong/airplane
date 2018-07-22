@@ -9,6 +9,7 @@
 #include <QGridLayout>
 
 #include <smallthread.h>
+#include <fullscreen.h>
 
 class SmallWidget : public QWidget
 {
@@ -19,12 +20,15 @@ private:
 
 public:
     explicit SmallWidget(int index, QWidget *parent = 0);
+    ~SmallWidget();
     QWidget *upWidget;
     QWidget *downWidget;
     QLabel *upLabel;
     QLabel *downLabel;
     QGridLayout *gridLayout;
     SmallThread *threadInterface;
+    FullScreen upScreen;
+    FullScreen downScreen;
     void resizeEvent(QResizeEvent *);
     void setNumber(int num);
     int getNumber();

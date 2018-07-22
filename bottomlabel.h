@@ -9,6 +9,7 @@ class BottomLabel:public QLabel
 public:
     BottomLabel(QWidget *);
 
+    ~BottomLabel();
     static bool is_draw;
 
     QTimer *timer;

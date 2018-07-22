@@ -106,13 +106,27 @@ void MainWindow::setLayout(){
     gridlayout->setColumnStretch(7,1);
 
     widget->setLayout(gridlayout);
+    QWidget *lastWidget = this->centralWidget();
+    QLayout *lastLayout = lastWidget->layout();
     this->setCentralWidget(widget);
+    delete lastLayout;
+    delete lastWidget;
     this->update();
 }
 
 MainWindow::~MainWindow()
 {
+    timer->stop();
+    delete timer;
     delete ui;
+    delete gridlayout;
+    for(int i=0;i<12;i++){
+        delete sw1[i];
+        delete sw2[i];
+    }
+    delete bwLabel;
+    delete bw;
+    delete this->centralWidget();
 }
 
 void MainWindow::onTimerOut(){

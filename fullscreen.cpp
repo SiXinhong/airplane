@@ -19,10 +19,6 @@
 
 #include "cvutil.h"
 #include "fullscreen.h"
-#include "fullthread.h"
-#include "myinterface.h"
-#include "smallthread.h"
-#include "smallwidget.h"
 
 using namespace cv;
 using namespace std;
@@ -30,19 +26,22 @@ using namespace std;
 FullScreen::FullScreen(QWidget *parent) :
     QMainWindow(parent)
 {
-    //1个fullthread
-    ft.start();
+    label.setParent(this);
+    label.setScaledContents(true);
 }
 
 FullScreen::~FullScreen(){
-    ft.exit(0);
+
 }
 
 void FullScreen::setNumber(int num){
     this->number = num;
-    ft.setNumber(num);
 }
 
 int FullScreen::getNumber(){
     return this->number;
+}
+
+void FullScreen::resizeEvent(QResizeEvent *){
+    label.resize(this->size());
 }

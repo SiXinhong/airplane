@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QThread>
+#include <QLabel>
 
 #include "fullthread.h"
 
@@ -18,8 +19,8 @@ public:
     ~FullScreen();
     void setNumber(int num);
     int getNumber();
-    //1个fullthread
-    FullThread ft;
+    QLabel label;
+    void resizeEvent(QResizeEvent *);
 signals:
 
 public slots:

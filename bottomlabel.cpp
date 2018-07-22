@@ -13,6 +13,10 @@ BottomLabel::BottomLabel(QWidget *widget):QLabel(widget)
     connect(timer, SIGNAL(timeout()), this, SLOT(slotClicked()));
 
 }
+BottomLabel::~BottomLabel(){
+    timer->stop();
+    delete timer;
+}
 
 void BottomLabel::paintEvent(QPaintEvent *e){
     QLabel::paintEvent(e);

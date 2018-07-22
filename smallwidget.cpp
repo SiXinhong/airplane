@@ -36,6 +36,14 @@ SmallWidget::SmallWidget(int index, QWidget *parent) :
     downLabel->setScaledContents(true);
 }
 
+SmallWidget::~SmallWidget(){
+    threadInterface->exit();
+    delete upLabel;
+    delete upWidget;
+    delete downLabel;
+    delete downWidget;
+    delete gridLayout;
+}
 
 void SmallWidget::setNumber(int num){
     this->number = num;
@@ -58,7 +66,14 @@ void SmallWidget::mouseReleaseEvent(QMouseEvent *e){
 }
 
 void SmallWidget::mouseDoubleClickEvent(QMouseEvent *e){
-
+    int y = e->pos().y();
+    if(y>this->height()/2){
+        downScreen.label.setPixmap(*downLabel->pixmap());
+        downScreen.show();
+    }else{
+        upScreen.label.setPixmap(*upLabel->pixmap());
+        upScreen.show();
+    }
 }
 
 void SmallWidget::resizeEvent(QResizeEvent *){
@@ -67,7 +82,11 @@ void SmallWidget::resizeEvent(QResizeEvent *){
 }
 
 void SmallWidget::showNext(){
-    upLabel->setPixmap(threadInterface->getPixmap());
-    downLabel->setPixmap(threadInterface->getPixmap());
+    QPixmap upmap = threadInterface->getPixmap();
+    upLabel->setPixmap(upmap);
+    upScreen.label.setPixmap(upmap);
+    QPixmap downmap = threadInterface->getPixmap();
+    downLabel->setPixmap(downmap);
+    downScreen.label.setPixmap(downmap);
     threadInterface->getNext();
 }

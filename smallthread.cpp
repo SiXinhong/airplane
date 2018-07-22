@@ -8,6 +8,9 @@ SmallThread::SmallThread(int number)
     isOk = false;
     isRun = false;
 }
+SmallThread::~SmallThread(){
+    delete interface;
+}
 
 void SmallThread::run(){
     isRun = true;
