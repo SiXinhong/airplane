@@ -8,7 +8,7 @@
 #include <QLabel>
 #include <QGridLayout>
 
-#include "myinterface.h"
+#include <smallthread.h>
 
 class SmallWidget : public QWidget
 {
@@ -24,9 +24,11 @@ public:
     QLabel *upLabel;
     QLabel *downLabel;
     QGridLayout *gridLayout;
+    SmallThread *threadInterface;
     void resizeEvent(QResizeEvent *);
     void setNumber(int num);
     int getNumber();
+    void showNext();
 
     void mousePressEvent(QMouseEvent *e);
     void mouseMoveEvent(QMouseEvent *e);

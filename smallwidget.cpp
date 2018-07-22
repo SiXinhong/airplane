@@ -9,7 +9,7 @@
 SmallWidget::SmallWidget(int index, QWidget *parent) :
     QWidget(parent)
 {
-    this->setStyleSheet(QString("background-color: rgb(255,0,0);"));
+    //this->setStyleSheet(QString("background-color: rgb(255,0,0);"));
     gridLayout = new QGridLayout();
     upWidget = new QWidget(this);
     downWidget = new QWidget(this);
@@ -25,13 +25,13 @@ SmallWidget::SmallWidget(int index, QWidget *parent) :
 
     this->setLayout(gridLayout);
 
-    QPixmap p = QPixmap("./map/Lighthouse.jpg");
-    QPixmap p1 = QPixmap("./map/Tulips.jpg");
-    QPainter painter(&p);
-    painter.setPen(QPen(QColor(index*20,0,index*20),200,Qt::SolidLine));
-    painter.drawRect(0,0,200,200);
-    upLabel->setPixmap(p);
-    downLabel->setPixmap(p1);
+    threadInterface = new SmallThread(index);
+    threadInterface->start();
+    while(!threadInterface->isRun)
+        QThread::usleep(10);
+    upLabel->setPixmap(threadInterface->getPixmap());
+    downLabel->setPixmap(threadInterface->getPixmap());
+    threadInterface->getNext();
     upLabel->setScaledContents(true);
     downLabel->setScaledContents(true);
 }
@@ -66,3 +66,8 @@ void SmallWidget::resizeEvent(QResizeEvent *){
     downLabel->resize(downWidget->size());
 }
 
+void SmallWidget::showNext(){
+    upLabel->setPixmap(threadInterface->getPixmap());
+    downLabel->setPixmap(threadInterface->getPixmap());
+    threadInterface->getNext();
+}

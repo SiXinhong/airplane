@@ -125,31 +125,6 @@ public:
     SmallWidget* sw1[12];
     SmallWidget* sw2[12];
     int horizontalMove;//从第几个sw开始显示[0,4]
-    //24个samllthread
-    SmallThread st11;
-    SmallThread st21;
-    SmallThread st31;
-    SmallThread st41;
-    SmallThread st51;
-    SmallThread st61;
-    SmallThread st71;
-    SmallThread st81;
-    SmallThread st91;
-    SmallThread st101;
-    SmallThread st111;
-    SmallThread st121;
-    SmallThread st12;
-    SmallThread st22;
-    SmallThread st32;
-    SmallThread st42;
-    SmallThread st52;
-    SmallThread st62;
-    SmallThread st72;
-    SmallThread st82;
-    SmallThread st92;
-    SmallThread st102;
-    SmallThread st112;
-    SmallThread st122;
 
     //1个BottomWidget
     QWidget *bw;

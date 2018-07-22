@@ -21,9 +21,8 @@
 #include "cvutil.h"
 #include "fullscreen.h"
 #include "fullthread.h"
-#include "myinterface.h"
-#include "smallthread.h"
 #include "smallwidget.h"
+#include <QDebug>
 
 using namespace cv;
 using namespace std;
@@ -46,7 +45,9 @@ MainWindow::MainWindow(QWidget *parent) :
     bw = new QWidget(widget);
 
     timer=new QTimer();
-    timer->setInterval(1500);
+    timer->setInterval(5000);
+    connect(timer, SIGNAL(timeout()), SLOT(onTimerOut()));
+    timer->start();
     this->BottomWidgetShow();
 this->setLayout();//调用自定义函数
     this->setWindowState(Qt::WindowMaximized);
@@ -115,7 +116,10 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::onTimerOut(){
-
+    for(int i=0;i<12;i++){
+        sw1[i]->showNext();
+        sw2[i]->showNext();
+    }
 }
 
 void MainWindow::moveLeft(){
@@ -133,9 +137,6 @@ void MainWindow::moveRight(){
 }
 
 void MainWindow::resizeEvent(QResizeEvent *){
-    for(int i=0;i<12;i++){
-        sw1[i]->update();
-    }
     bwLabel->resize(bw->size());
 }
 
@@ -147,3 +148,4 @@ void MainWindow::BottomWidgetShow(){
     bwLabel->setPixmap(map);
 
 }
+
