@@ -6,6 +6,7 @@
 #include <QPixmap>
 #include <QLabel>
 #include <QTimer>
+#include <QMessageBox>
 
 #include <QGridLayout>
 #include <cv.h>
@@ -45,7 +46,7 @@ MainWindow::MainWindow(QWidget *parent) :
     bw = new QWidget(widget);
 
     timer=new QTimer();
-    timer->setInterval(5000);
+    timer->setInterval(3000);
     connect(timer, SIGNAL(timeout()), SLOT(onTimerOut()));
     timer->start();
     this->BottomWidgetShow();
@@ -140,13 +141,18 @@ void MainWindow::moveLeft(){
     if(horizontalMove>0){
         horizontalMove--;
         this->setLayout();
+    }else{
+        QMessageBox::about(NULL, "提示", "到头了！");
     }
+
 }
 
 void MainWindow::moveRight(){
     if(horizontalMove<4){
         horizontalMove++;
         this->setLayout();
+    }else{
+        QMessageBox::about(NULL, "提示", "到头了！");
     }
 }
 
