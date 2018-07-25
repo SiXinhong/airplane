@@ -27,8 +27,8 @@ SmallWidget::SmallWidget(int index, QWidget *parent) :
 
     threadInterface = new SmallThread(index);
     threadInterface->start();
-    while(!threadInterface->isRun)
-        QThread::usleep(10);
+//    while(!threadInterface->isRun)
+//        QThread::usleep(10);
     upLabel->setPixmap(threadInterface->getPixmap());
     downLabel->setPixmap(threadInterface->getPixmap());
     threadInterface->getNext();

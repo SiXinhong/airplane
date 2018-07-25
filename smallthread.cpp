@@ -37,7 +37,7 @@ QPixmap SmallThread::getPixmap(){
     while(!isOk)
     {
         fullCond.wakeAll();
-        emptyCond.wait(&mutex);
+        emptyCond.wait(&mutex,50);//第二个参数是等待50毫秒，如果没有信号通知，就直接返回，防止死锁。因为有while循环，所以会重试
     }
     isOk = false;
     mutex.unlock();
