@@ -21,6 +21,7 @@ public:
     int getNumber();
     QLabel label;
     void resizeEvent(QResizeEvent *);
+    void mouseDoubleClickEvent(QMouseEvent *e);
 signals:
 
 public slots:

@@ -28,6 +28,7 @@ FullScreen::FullScreen(QWidget *parent) :
 {
     label.setParent(this);
     label.setScaledContents(true);
+
 }
 
 FullScreen::~FullScreen(){
@@ -44,4 +45,8 @@ int FullScreen::getNumber(){
 
 void FullScreen::resizeEvent(QResizeEvent *){
     label.resize(this->size());
+}
+
+void FullScreen::mouseDoubleClickEvent(QMouseEvent *e){
+    this->close();
 }

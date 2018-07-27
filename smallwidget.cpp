@@ -37,7 +37,7 @@ SmallWidget::SmallWidget(int index, QWidget *parent) :
 }
 
 SmallWidget::~SmallWidget(){
-    threadInterface->exit();
+    //threadInterface->exit();
     delete upLabel;
     delete upWidget;
     delete downLabel;
@@ -69,9 +69,13 @@ void SmallWidget::mouseDoubleClickEvent(QMouseEvent *e){
     int y = e->pos().y();
     if(y>this->height()/2){
         downScreen.label.setPixmap(*downLabel->pixmap());
-        downScreen.show();
+        downScreen.setWindowFlags(Qt::WindowStaysOnTopHint);
+        downScreen.showFullScreen();
+        //downScreen.show();
     }else{
         upScreen.label.setPixmap(*upLabel->pixmap());
+        upScreen.setWindowFlags(Qt::WindowStaysOnTopHint);
+        upScreen.showFullScreen();
         upScreen.show();
     }
 }

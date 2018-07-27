@@ -3,6 +3,8 @@
 #include<QLabel>
 #include<QTimer>
 
+#include "smallwidget.h"
+
 class BottomLabel:public QLabel
 {
     Q_OBJECT
@@ -12,7 +14,7 @@ public:
     ~BottomLabel();
     static bool is_draw;
 
-    QTimer *timer;
+    // *timer;
 
     void paintEvent(QPaintEvent *e);
 
@@ -21,7 +23,7 @@ public:
     void mouseDoubleClickEvent(QMouseEvent *e);
 
 public slots:
-    void slotClicked();
+    //void slotClicked();
 };
 
 #endif // BOTTOMLABEL_H

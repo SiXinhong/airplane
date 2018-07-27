@@ -46,7 +46,7 @@ MainWindow::MainWindow(QWidget *parent) :
     bw = new QWidget(widget);
 
     timer=new QTimer();
-    timer->setInterval(3000);
+    timer->setInterval(1500);
     connect(timer, SIGNAL(timeout()), SLOT(onTimerOut()));
     timer->start();
     this->BottomWidgetShow();
@@ -117,8 +117,8 @@ void MainWindow::setLayout(){
 
 MainWindow::~MainWindow()
 {
-    timer->stop();
-    delete timer;
+    //timer->stop();
+    //delete timer;
     delete ui;
     delete gridlayout;
     for(int i=0;i<12;i++){

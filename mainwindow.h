@@ -70,31 +70,31 @@ public:
 //    QLabel *label122;
 
     //加载到24个QLabel上的24个QImage
-    QImage imgLabel11;
-    QImage imgLabel21;
-    QImage imgLabel31;
-    QImage imgLabel41;
-    QImage imgLabel51;
-    QImage imgLabel61;
-    QImage imgLabel71;
-    QImage imgLabel81;
-    QImage imgLabel91;
-    QImage imgLabel101;
-    QImage imgLabel111;
-    QImage imgLabel121;
+//    QImage imgLabel11;
+//    QImage imgLabel21;
+//    QImage imgLabel31;
+//    QImage imgLabel41;
+//    QImage imgLabel51;
+//    QImage imgLabel61;
+//    QImage imgLabel71;
+//    QImage imgLabel81;
+//    QImage imgLabel91;
+//    QImage imgLabel101;
+//    QImage imgLabel111;
+//    QImage imgLabel121;
 
-    QImage imgLabel12;
-    QImage imgLabel22;
-    QImage imgLabel32;
-    QImage imgLabel42;
-    QImage imgLabel52;
-    QImage imgLabel62;
-    QImage imgLabel72;
-    QImage imgLabel82;
-    QImage imgLabel92;
-    QImage imgLabel102;
-    QImage imgLabel112;
-    QImage imgLabel122;
+//    QImage imgLabel12;
+//    QImage imgLabel22;
+//    QImage imgLabel32;
+//    QImage imgLabel42;
+//    QImage imgLabel52;
+//    QImage imgLabel62;
+//    QImage imgLabel72;
+//    QImage imgLabel82;
+//    QImage imgLabel92;
+//    QImage imgLabel102;
+//    QImage imgLabel112;
+//    QImage imgLabel122;
 
     //24个smallwidget
 //    SmallWidget *sw11;
