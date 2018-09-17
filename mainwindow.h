@@ -42,6 +42,9 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     void setLayout();
+    int picH;//一个sw.upLabel的高度，估算值，因为widget之间有空隙
+    bool isNeedAjustpicH;
+    double lastDiff;
     //24个label
 //    QLabel *label11;
 //    QLabel *label21;

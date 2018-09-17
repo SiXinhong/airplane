@@ -50,12 +50,26 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(timer, SIGNAL(timeout()), SLOT(onTimerOut()));
     timer->start();
     this->BottomWidgetShow();
-this->setLayout();//调用自定义函数
+    isNeedAjustpicH = false;//设置成false不调整picH
+    picH = 140;
+    if(isNeedAjustpicH){
+        picH=100;
+        this->setLayout();
+        lastDiff = 0;
+        timer->setInterval(50);
+    }else{
+        this->setLayout();//调用自定义函数
+    }
+
     this->setWindowState(Qt::WindowMaximized);
     this->setWindowFlags(Qt::WindowCloseButtonHint);
 }
 
 void MainWindow::setLayout(){
+    //屏幕高度分成1000份，设置比例
+    int h1=picH/6;//按钮默认是1/6图片高度
+    int h2=picH*2;//一个sw包括upLabel和downLabel
+    int h3=1000-h1*2-h2*2;//剩下的给bw
     QWidget *widget = new QWidget();//this->centralWidget();
     for(int i=0;i<12;i++){
         sw1[i]->setParent(NULL);
@@ -91,11 +105,11 @@ void MainWindow::setLayout(){
 
     gridlayout->addWidget(bw,4,0,1,8);
 
-    gridlayout->setRowStretch(0, 1);
-    gridlayout->setRowStretch(1, 6);
-    gridlayout->setRowStretch(2, 6);
-    gridlayout->setRowStretch(3, 1);
-    gridlayout->setRowStretch(4, 6);
+    gridlayout->setRowStretch(0, h1);
+    gridlayout->setRowStretch(1, h2);
+    gridlayout->setRowStretch(2, h2);
+    gridlayout->setRowStretch(3, h1);
+    gridlayout->setRowStretch(4, h3);
 
     gridlayout->setColumnStretch(0,1);
     gridlayout->setColumnStretch(1,1);
@@ -131,6 +145,36 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::onTimerOut(){
+    if(isNeedAjustpicH){
+        double ratio = (double)sw1[6]->upLabel->height()/sw1[6]->upLabel->width();
+        //与1080/1920=0.5625比较
+        double diff = abs(ratio-0.5625);
+        if(diff<=0.0001){
+            isNeedAjustpicH=false;
+            bwLabel->resize(bw->size());
+            timer->setInterval(1500);
+            qDebug()<<"picH1:"<<picH;
+            return;
+        }
+        if(lastDiff != 0 && diff>lastDiff){
+            isNeedAjustpicH=false;
+            //diff比lastDiff大了，不再迭代了，恢复到上一次的picH
+            picH--;
+            this->setLayout();
+            //需要下一行，否则bwLabel没有改变大小
+            bwLabel->resize(bw->size());
+            timer->setInterval(1500);
+            qDebug()<<"picH2:"<<picH<<","<<lastDiff<<","<<diff;
+            return;
+        }
+//        qDebug()<<"real:"<<picH<<","<<sw1[6]->upLabel->width()<<","<<sw1[6]->upLabel->height()<<","<<(double)sw1[6]->upLabel->height()/sw1[6]->upLabel->width();
+        lastDiff = diff;
+        //因为timerOut返回之前新的画面不会刷新，所以先判断上一次的diff，再让picH++
+        picH++;//越大比例就越大
+        this->setLayout();
+        return;
+    }
+//    qDebug()<<"real:"<<picH<<","<<sw1[6]->upLabel->width()<<","<<sw1[6]->upLabel->height()<<","<<(double)sw1[6]->upLabel->height()/sw1[6]->upLabel->width();
     for(int i=0;i<12;i++){
         sw1[i]->showNext();
         sw2[i]->showNext();
