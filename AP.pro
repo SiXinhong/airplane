@@ -14,7 +14,10 @@ TEMPLATE = app
 INCLUDEPATH += .\install\include
 INCLUDEPATH += .\install\include\opencv
 
+INCLUDEPATH += .\hcnet\include
 LIBS += -L .\install\x64\mingw\lib\libopencv_*.a\
+            .\hcnet\lib\HC*.lib\
+            .\hcnet\lib\PlayCtrl.lib
 
 SOURCES += main.cpp\
         mainwindow.cpp \

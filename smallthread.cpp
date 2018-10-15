@@ -4,12 +4,12 @@
 SmallThread::SmallThread(int number)
 {
     setNumber(number);
-    interface = new MyInterface(number);
+    inter = new MyInterface(number);
     isOk = false;
     isRun = false;
 }
 SmallThread::~SmallThread(){
-    delete interface;
+    delete inter;
 }
 
 void SmallThread::run(){
@@ -17,7 +17,7 @@ void SmallThread::run(){
     while(true){
         mutex.lock();
         fullCond.wait(&mutex);
-        pixmap = interface->getPixmap();
+        pixmap = inter->getPixmap();
         isOk = true;
         emptyCond.wakeAll();
         mutex.unlock();

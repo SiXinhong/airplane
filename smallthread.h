@@ -12,7 +12,7 @@ class SmallThread: public QThread
 
 private:
     int number;
-    MyInterface *interface;
+    MyInterface *inter;
 
 public:
     SmallThread(int number);
