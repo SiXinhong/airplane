@@ -9,6 +9,8 @@ class MyInterface
 {
 public:
     MyInterface(int start);
+    MyInterface(int start,QString ip,QString userName,QString passwd,int port);
+    void setLogin(QString ip,QString userName,QString passwd,int port);
     QPixmap getPixmap();
     QPixmap getPixmapFromRemote();
     bool login();

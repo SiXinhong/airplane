@@ -20,6 +20,33 @@ MyInterface::MyInterface(int start)
 
 }
 
+MyInterface::MyInterface(int start,QString ip,QString userName,QString passwd,int port){
+    this->ip = ip;
+    this->userName = userName;
+    this->passwd = passwd;
+    this->port = port;
+    currentIndex = start;
+    for(int i=0;i<50;i++){
+        cache.append(QPixmap(QString("./image/%1.jpg").arg(i)));
+    }
+    this->JpegPara = new NET_DVR_JPEGPARA;
+    this->JpegPara->wPicSize = 9;//9-HD1080P(1920*1080)
+    this->JpegPara->wPicQuality = 0;//wPicQuality 图片质量系数：0-最好，1-较好，2-一般
+    this->isLogin = false;
+    // 初始化
+    NET_DVR_Init();
+    //设置连接时间与重连时间
+    NET_DVR_SetConnectTime(2000, 1);
+    NET_DVR_SetReconnect(10000, true);
+}
+
+void MyInterface::setLogin(QString ip,QString userName,QString passwd,int port){
+    this->ip = ip;
+    this->userName = userName;
+    this->passwd = passwd;
+    this->port = port;
+}
+
 QPixmap MyInterface::getPixmap(){
     if(isLogin)
         return getPixmapFromRemote();
@@ -36,6 +63,7 @@ bool MyInterface::login(){
     LONG lLoginID = NET_DVR_Login_V30(this->ip.toLatin1().data(),this->port,this->userName.toLatin1().data(),this->passwd.toLatin1().data(),&DeviceInfoTmp);
     if(lLoginID == -1)
     {
+        qDebug()<<"login error:"<<NET_DVR_GetLastError()<<",ip:"<<ip<<",port:"<<port<<",username:"<<userName<<",passwd:"<<passwd;
         return false;
     }
     this->loginId = lLoginID;

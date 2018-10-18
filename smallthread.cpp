@@ -7,6 +7,12 @@ SmallThread::SmallThread(int number)
     inter = new MyInterface(number);
     isOk = false;
     isRun = false;
+    if(number == 5){
+        inter->setLogin(QString("192.168.1.2"),QString("testusername"),QString("testpasswd"),9000);
+        for(int i=0;!inter->isLogin && i<5;i++){
+            inter->login();
+        }
+    }
 }
 SmallThread::~SmallThread(){
     delete inter;
