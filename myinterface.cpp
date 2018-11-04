@@ -1,6 +1,7 @@
 #include "myinterface.h"
 #include <QTime>
 #include <QDebug>
+#include <QDir>
 
 MyInterface::MyInterface(int start)
 {
@@ -17,6 +18,12 @@ MyInterface::MyInterface(int start)
     //设置连接时间与重连时间
     NET_DVR_SetConnectTime(2000, 1);
     NET_DVR_SetReconnect(10000, true);
+    QDir dir;
+    this->dirName = QString("./image/%1").arg(this->currentIndex);
+    if(!dir.exists(dirName)){
+        qDebug()<<"mkdir:"<<dir.mkdir(dirName)<<",dirName:"<<dirName;
+    }
+    dirName = dirName.append("/tmp.jpg");
 
 }
 
@@ -50,10 +57,12 @@ void MyInterface::setLogin(QString ip,QString userName,QString passwd,int port){
 QPixmap MyInterface::getPixmap(){
     if(isLogin)
         return getPixmapFromRemote();
-    qsrand(QTime(0,0,0).secsTo(QTime::currentTime())+currentIndex);
-    currentIndex = (currentIndex+qrand()%10)%50;
-    //return QPixmap(QString("./image/%1.jpg").arg(currentIndex));
-    return cache.at(currentIndex);
+    else
+        return QPixmap(QString("./image/5/tmp.jpg"));
+//    qsrand(QTime(0,0,0).secsTo(QTime::currentTime())+currentIndex);
+//    currentIndex = (currentIndex+qrand()%10)%50;
+//    //return QPixmap(QString("./image/%1.jpg").arg(currentIndex));
+//    return cache.at(currentIndex);
 }
 
 bool MyInterface::login(){
@@ -78,18 +87,21 @@ bool MyInterface::login(){
 QPixmap MyInterface::getPixmapFromRemote(){
     if(!isLogin)
         return QPixmap();
+    QTime t = QTime::currentTime();
+    t.start();
     bool capture = false;
     // 调用失败重试几次
     for(int i=0;capture && i<5;i++){
-        capture = NET_DVR_CaptureJPEGPicture(this->loginId,1,this->JpegPara,QString("./image/%1.jpg").arg(this->ip).toLatin1().data());
+        capture = NET_DVR_CaptureJPEGPicture(this->loginId,1,this->JpegPara,this->dirName.toLatin1().data());
         if(!capture){
             qDebug()<<"getPixmapFromRemote error:"<<NET_DVR_GetLastError();
         }
     }
 
     if(capture){
-        return QPixmap(QString("./image/%1.jpg").arg(this->ip));
+        return QPixmap(this->dirName);
     }else{
         return QPixmap();
     }
+    qDebug()<<"getPixmapFromRemote:"<<t.toString("hh:mm:ss.zzz")<<"elapsed:"<<t.elapsed();
 }

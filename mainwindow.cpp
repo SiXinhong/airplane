@@ -24,6 +24,7 @@
 #include "fullthread.h"
 #include "smallwidget.h"
 #include <QDebug>
+#include <QTime>
 
 using namespace cv;
 using namespace std;
@@ -39,7 +40,7 @@ MainWindow::MainWindow(QWidget *parent) :
     horizontalMove=2;
     for(int i=0;i<12;i++){
         sw1[i] = new SmallWidget(i,widget);
-        sw2[i] = new SmallWidget(i,widget);
+        sw2[i] = new SmallWidget(i+12,widget);
     }
 
     //1个bottomwidget
@@ -48,7 +49,7 @@ MainWindow::MainWindow(QWidget *parent) :
     timer=new QTimer();
     timer->setInterval(1500);
     connect(timer, SIGNAL(timeout()), SLOT(onTimerOut()));
-    timer->start();
+
     this->BottomWidgetShow();
     isNeedAjustpicH = false;//设置成false不调整picH
     picH = 140;
@@ -63,6 +64,10 @@ MainWindow::MainWindow(QWidget *parent) :
 
     this->setWindowState(Qt::WindowMaximized);
     this->setWindowFlags(Qt::WindowCloseButtonHint);
+
+    QThread::sleep(2);//保证通信线程能预先通信完成，以免timerout积压，导致通信线程一直无效
+    timer->start();
+    qDebug()<<"start:"<<QTime::currentTime().toString("hh:mm:ss.zzz");
 }
 
 void MainWindow::setLayout(){

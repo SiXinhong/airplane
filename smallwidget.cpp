@@ -5,6 +5,7 @@
 #include <QPoint>
 #include <QDebug>
 #include <QColor>
+#include <QTime>
 
 SmallWidget::SmallWidget(int index, QWidget *parent) :
     QWidget(parent)
@@ -25,13 +26,12 @@ SmallWidget::SmallWidget(int index, QWidget *parent) :
 
     this->setLayout(gridLayout);
 
+    setNumber(index);
     threadInterface = new SmallThread(index);
     threadInterface->start();
 //    while(!threadInterface->isRun)
 //        QThread::usleep(10);
-    upLabel->setPixmap(threadInterface->getPixmap());
-    downLabel->setPixmap(threadInterface->getPixmap());
-    threadInterface->getNext();
+    showNext();
     upLabel->setScaledContents(true);
     downLabel->setScaledContents(true);
 }
@@ -86,11 +86,16 @@ void SmallWidget::resizeEvent(QResizeEvent *){
 }
 
 void SmallWidget::showNext(){
+    QTime t = QTime::currentTime();
+    t.start();
     QPixmap upmap = threadInterface->getPixmap();
+    if(number == 5)
+        qDebug()<<"showNext-currentTime:"<<t.toString("hh:mm:ss.zzz")<<"getPixmap elapsed:"<<t.elapsed();
     upLabel->setPixmap(upmap);
     upScreen.label.setPixmap(upmap);
-    QPixmap downmap = threadInterface->getPixmap();
-    downLabel->setPixmap(downmap);
-    downScreen.label.setPixmap(downmap);
+    downLabel->setPixmap(upmap);
+    downScreen.label.setPixmap(upmap);
     threadInterface->getNext();
+    if(number == 5)
+        qDebug()<<"showNext-total time:"<<t.elapsed();
 }

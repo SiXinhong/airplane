@@ -27,6 +27,7 @@ public:
     LPNET_DVR_JPEGPARA JpegPara;//获取图片时的参数，图片质量
     int currentIndex;
     QVector<QPixmap> cache;
+    QString dirName;
 };
 
 #endif // MYINTERFACE_H
