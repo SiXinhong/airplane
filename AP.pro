@@ -36,6 +36,7 @@ HEADERS  += mainwindow.h \
     cvutil.h \
     smallthread.h \
     fullthread.h \
-    bottomlabel.h
+    bottomlabel.h \
+    PlayM4.h
 
 FORMS    += mainwindow.ui

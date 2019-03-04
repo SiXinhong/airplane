@@ -47,7 +47,7 @@ MainWindow::MainWindow(QWidget *parent) :
     bw = new QWidget(widget);
 
     timer=new QTimer();
-    timer->setInterval(1500);
+    timer->setInterval(500);
     connect(timer, SIGNAL(timeout()), SLOT(onTimerOut()));
 
     this->BottomWidgetShow();
