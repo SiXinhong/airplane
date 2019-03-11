@@ -28,6 +28,7 @@ public:
     int currentIndex;
     QVector<QPixmap> cache;
     QString dirName;
+    LONG nPort;//播放库通道号
 };
 
 #endif // MYINTERFACE_H

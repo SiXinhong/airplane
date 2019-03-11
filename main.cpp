@@ -48,9 +48,9 @@ static LONG ApplicationCrashHandler(EXCEPTION_POINTERS *pException)
 }
 int main(int argc, char *argv[])
 {
-    SetUnhandledExceptionFilter((LPTOP_LEVEL_EXCEPTION_FILTER)ApplicationCrashHandler);
-    file.open(QIODevice::ReadWrite | QIODevice::Append);
-    qInstallMessageHandler(myMessageOutput);
+    //SetUnhandledExceptionFilter((LPTOP_LEVEL_EXCEPTION_FILTER)ApplicationCrashHandler);
+    //file.open(QIODevice::ReadWrite | QIODevice::Append);
+    //qInstallMessageHandler(myMessageOutput);
     QApplication a(argc, argv);
     MainWindow w;
     w.setWindowTitle("XX机场鸟情智能视频监控报警系统");

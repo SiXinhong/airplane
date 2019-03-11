@@ -7,7 +7,6 @@
 #include <opencv2\highgui\highgui.hpp>
 #include <opencv2\imgproc\imgproc.hpp>
 
-LONG nPort;//播放库通道号
 MyInterface::MyInterface(int start)
 {
     currentIndex = start;
@@ -30,6 +29,7 @@ MyInterface::MyInterface(int start)
     }
     dirName = dirName.append("/tmp.jpg");
 
+    qsrand(QTime(0,0,0).secsTo(QTime::currentTime())+currentIndex);
 }
 
 MyInterface::MyInterface(int start,QString ip,QString userName,QString passwd,int port){
@@ -58,15 +58,15 @@ void CALLBACK DecCBFun(long nPort, char* pBuf, long nSize, FRAME_INFO* pFrameInf
 {
     if (pFrameInfo->nType == T_YV12)
     {
-        qDebug()<< "the frame infomation is T_YV12";
+        //qDebug()<< "the frame infomation is T_YV12";
         cv::Mat g_BGRImage;
         g_BGRImage.create(pFrameInfo->nHeight, pFrameInfo->nWidth, CV_8UC3);
         cv::Mat YUVImage(pFrameInfo->nHeight + pFrameInfo->nHeight / 2, pFrameInfo->nWidth, CV_8UC1, (unsigned char*)pBuf);
 
         cv::cvtColor(YUVImage, g_BGRImage, cv::COLOR_YUV2BGR_YV12);
-        QString dir =  QString("./image/5/tmp.jpg");
+        QString dir =  QString("./image/port/%1").arg(nPort).append("/tmp.jpg");
         cv::imwrite(dir.toStdString(),g_BGRImage);
-        qDebug()<< "write image to "<<dir;
+        //qDebug()<< "write image to "<<dir;
         YUVImage.~Mat();
     }
 }
@@ -76,15 +76,16 @@ void CALLBACK g_RealDataCallBack_V30(LONG lPlayHandle, DWORD dwDataType, BYTE *p
 {
     if (dwDataType == NET_DVR_STREAMDATA)//码流数据
     {
-        if (dwBufSize > 0 && nPort != -1)
+        MyInterface* pIntf = (MyInterface*)pUser;
+        if (dwBufSize > 0 && pIntf->nPort != -1)
         {
-            if (!PlayM4_InputData(nPort, pBuffer, dwBufSize))
+            if (!PlayM4_InputData(pIntf->nPort, pBuffer, dwBufSize))
             {
-                qDebug()<<"fail input data:"<<nPort;
+                qDebug()<<"fail input data:"<<pIntf->nPort;
             }
             else
             {
-                qDebug()<<"success input data:"<<nPort;
+                //qDebug()<<"success input data:"<<pIntf->nPort;
             }
 
         }
@@ -99,11 +100,14 @@ void MyInterface::setLogin(QString ip,QString userName,QString passwd,int port){
 }
 
 QPixmap MyInterface::getPixmap(){
-    return QPixmap(QString("./image/5/tmp.jpg"));
-//    qsrand(QTime(0,0,0).secsTo(QTime::currentTime())+currentIndex);
-//    currentIndex = (currentIndex+qrand()%10)%50;
-//    //return QPixmap(QString("./image/%1.jpg").arg(currentIndex));
-//    return cache.at(currentIndex);
+    if(isLogin)
+        return QPixmap(QString("./image/port/%1").arg(nPort).append("/tmp.jpg"));
+        //return getPixmapFromRemote();
+    else{
+        currentIndex = (currentIndex+qrand()%10)%50;
+        //return QPixmap(QString("./image/%1.jpg").arg(currentIndex));
+        return cache.at(currentIndex);
+    }
 }
 
 bool MyInterface::login(){
@@ -127,30 +131,34 @@ bool MyInterface::login(){
 
 
     //获取播放库通道号
-    bool ret = PlayM4_GetPort(&nPort);
+    bool ret = PlayM4_GetPort(&this->nPort);
     if(!ret){
         qDebug()<<"login error:set stream open mode";
         return false;
     }else{
-        qDebug()<<"获取播放通道号成功:port:"<<nPort<<",index:"<<this->currentIndex;
+        qDebug()<<"获取播放通道号成功:port:"<<this->nPort<<",index:"<<this->currentIndex;
     }
-
+    QString dirName1 =  QString("./image/port/%1").arg(nPort);
+    QDir dir;
+    if(!dir.exists(dirName1)){
+        qDebug()<<"mkdir:"<<dir.mkdir(dirName1)<<",dirName:"<<dirName1;
+    }
     //设置流模式
-    ret = PlayM4_SetStreamOpenMode(nPort, STREAME_REALTIME);
+    ret = PlayM4_SetStreamOpenMode(this->nPort, STREAME_REALTIME);
     if(!ret){
         qDebug()<<"login error:fail to get port";
         return false;
     }
     //打开流
-    ret = PlayM4_OpenStream(nPort, NULL, 0, 1024 * 1024);
+    ret = PlayM4_OpenStream(this->nPort, NULL, 0, 1024 * 1024);
     if(!ret){
         qDebug()<<"login error:OpenStream";
         return false;
     }
     //设置播放库回调函数
-    ret = PlayM4_SetDecCallBackExMend(nPort, DecCBFun, NULL, 0, NULL);
+    ret = PlayM4_SetDecCallBackExMend(this->nPort, DecCBFun, NULL, 0, NULL);
     // 开启播放
-    ret = PlayM4_Play(nPort, NULL);
+    ret = PlayM4_Play(this->nPort, NULL);
     if(!ret){
         qDebug()<<"login error:paly";
         return false;
@@ -163,9 +171,9 @@ bool MyInterface::login(){
     struPlayInfo.dwLinkMode = 0;// 0：TCP方式,1：UDP方式,2：多播方式,3 - RTP方式，4-RTP/RTSP,5-RSTP/HTTP
     struPlayInfo.bBlocked = 1; //0-非阻塞取流, 1-阻塞取流, 如果阻塞SDK内部connect失败将会有5s的超时才能够返回,不适合于轮询取流操作.
 
-    if (!NET_DVR_RealPlay_V40(this->loginId, &struPlayInfo, g_RealDataCallBack_V30, NULL))
+    if (-1==NET_DVR_RealPlay_V40(this->loginId, &struPlayInfo, g_RealDataCallBack_V30, this))
     {
-        qDebug()<<"login error:注册回调函数失败" + NET_DVR_GetLastError();
+        qDebug()<<"login error:注册回调函数失败" << NET_DVR_GetLastError();
         return false;
     }
 
