@@ -6,6 +6,9 @@
 #include <opencv2\core\core.hpp>
 #include <opencv2\highgui\highgui.hpp>
 #include <opencv2\imgproc\imgproc.hpp>
+#include "cvutil.h"
+
+MyInterface* interfaces[24];
 
 MyInterface::MyInterface(int start)
 {
@@ -64,9 +67,10 @@ void CALLBACK DecCBFun(long nPort, char* pBuf, long nSize, FRAME_INFO* pFrameInf
         cv::Mat YUVImage(pFrameInfo->nHeight + pFrameInfo->nHeight / 2, pFrameInfo->nWidth, CV_8UC1, (unsigned char*)pBuf);
 
         cv::cvtColor(YUVImage, g_BGRImage, cv::COLOR_YUV2BGR_YV12);
-        QString dir =  QString("./image/port/%1").arg(nPort).append("/tmp.jpg");
-        cv::imwrite(dir.toStdString(),g_BGRImage);
+        //QString dir =  QString("./image/port/%1").arg(nPort).append("/tmp.jpg");
+        //cv::imwrite(dir.toStdString(),g_BGRImage);
         //qDebug()<< "write image to "<<dir;
+        interfaces[nPort]->pixmap = CVUtil::cvMatToQPixmap(g_BGRImage);
         YUVImage.~Mat();
     }
 }
@@ -101,7 +105,8 @@ void MyInterface::setLogin(QString ip,QString userName,QString passwd,int port){
 
 QPixmap MyInterface::getPixmap(){
     if(isLogin)
-        return QPixmap(QString("./image/port/%1").arg(nPort).append("/tmp.jpg"));
+        return pixmap;
+        //return QPixmap(QString("./image/port/%1").arg(nPort).append("/tmp.jpg"));
         //return getPixmapFromRemote();
     else{
         currentIndex = (currentIndex+qrand()%10)%50;
@@ -136,6 +141,7 @@ bool MyInterface::login(){
         qDebug()<<"login error:set stream open mode";
         return false;
     }else{
+        interfaces[this->nPort] = this;
         qDebug()<<"获取播放通道号成功:port:"<<this->nPort<<",index:"<<this->currentIndex;
     }
     QString dirName1 =  QString("./image/port/%1").arg(nPort);

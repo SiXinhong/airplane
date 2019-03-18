@@ -6,6 +6,7 @@
 #include <cv.h>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
+#include <QPixmap>
 
 using namespace cv;
 using namespace std;
@@ -47,13 +48,13 @@ cv::Mat CVUtil::QImageToMat(QImage image)
     return mat;
 }
 
-QImage CVUtil::MatToQImage(const cv::Mat& mat, QImage imgLabel)
+QImage CVUtil::MatToQImage(const cv::Mat& mat)
 {
     // 8-bits unsigned, NO. OF CHANNELS = 1
     if(mat.type() == CV_8UC1)
     {
         //QImage image(mat.cols, mat.rows, QImage::Format_Indexed8);
-        imgLabel = QImage(mat.cols, mat.rows, QImage::Format_Indexed8);
+        QImage imgLabel = QImage(mat.cols, mat.rows, QImage::Format_Indexed8);
         // Set the color table (used to translate colour indexes to qRgb values)
         imgLabel.setColorCount(256);
         for(int i = 0; i < 256; i++)
@@ -80,7 +81,7 @@ QImage CVUtil::MatToQImage(const cv::Mat& mat, QImage imgLabel)
         const uchar *pSrc = (const uchar*)mat.data;
         // Create QImage with same dimensions as input Mat
         //QImage image(pSrc, mat.cols, mat.rows, mat.step, QImage::Format_RGB888);
-        imgLabel = QImage(pSrc, mat.cols, mat.rows, mat.step, QImage::Format_RGB888);
+        QImage imgLabel = QImage(pSrc, mat.cols, mat.rows, mat.step, QImage::Format_RGB888);
         return imgLabel.rgbSwapped();
     }
     else if(mat.type() == CV_8UC4)
@@ -90,12 +91,17 @@ QImage CVUtil::MatToQImage(const cv::Mat& mat, QImage imgLabel)
         const uchar *pSrc = (const uchar*)mat.data;
         // Create QImage with same dimensions as input Mat
         //QImage image(pSrc, mat.cols, mat.rows, mat.step, QImage::Format_ARGB32);
-        imgLabel = QImage(pSrc, mat.cols, mat.rows, mat.step, QImage::Format_ARGB32);
+        QImage imgLabel = QImage(pSrc, mat.cols, mat.rows, mat.step, QImage::Format_ARGB32);
         return imgLabel.copy();
     }
     else
     {
         //qDebug() << "ERROR: Mat could not be converted to QImage.";
-        return imgLabel;
+        return QImage();
     }
+}
+
+QPixmap CVUtil::cvMatToQPixmap( const cv::Mat &inMat )
+{
+    return QPixmap::fromImage( MatToQImage( inMat ) );
 }

@@ -21,9 +21,9 @@ public:
 
     static Scalar getRandomColor(int id);
     static cv::Mat QImageToMat(QImage image);
-    static QImage MatToQImage(const cv::Mat& mat, QImage imgLabel);
+    static QImage MatToQImage(const cv::Mat& mat);
     static void paintScale(Mat image,double startw,double starth, double endw, double endy,int widget);
-
+    static QPixmap cvMatToQPixmap( const cv::Mat &inMat);
 };
 
 #endif // CVUTIL_H
