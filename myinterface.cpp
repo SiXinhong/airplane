@@ -7,6 +7,7 @@
 #include <opencv2\highgui\highgui.hpp>
 #include <opencv2\imgproc\imgproc.hpp>
 #include "cvutil.h"
+#include <QPainter>
 
 MyInterface* interfaces[24];
 
@@ -33,6 +34,9 @@ MyInterface::MyInterface(int start)
     dirName = dirName.append("/tmp.jpg");
 
     qsrand(QTime(0,0,0).secsTo(QTime::currentTime())+currentIndex);
+
+    this->isOpenDetectSwitch = true;
+    this->imageStatus = -1;
 }
 
 MyInterface::MyInterface(int start,QString ip,QString userName,QString passwd,int port){
@@ -61,6 +65,13 @@ void CALLBACK DecCBFun(long nPort, char* pBuf, long nSize, FRAME_INFO* pFrameInf
 {
     if (pFrameInfo->nType == T_YV12)
     {
+        interfaces[nPort]->mutex.lock();
+        // 正在被检测
+        if(interfaces[nPort]->imageStatus == 1 || interfaces[nPort]->imageStatus == -1){
+            interfaces[nPort]->mutex.unlock();
+            return;
+        }
+        qDebug()<<"DecCBFun"<<interfaces[nPort]->imageStatus;
         //qDebug()<< "the frame infomation is T_YV12";
         cv::Mat g_BGRImage;
         g_BGRImage.create(pFrameInfo->nHeight, pFrameInfo->nWidth, CV_8UC3);
@@ -70,8 +81,17 @@ void CALLBACK DecCBFun(long nPort, char* pBuf, long nSize, FRAME_INFO* pFrameInf
         //QString dir =  QString("./image/port/%1").arg(nPort).append("/tmp.jpg");
         //cv::imwrite(dir.toStdString(),g_BGRImage);
         //qDebug()<< "write image to "<<dir;
-        interfaces[nPort]->pixmap = CVUtil::cvMatToQPixmap(g_BGRImage);
+        if(!interfaces[nPort]->isOpenDetectSwitch){
+            interfaces[nPort]->pixmap = CVUtil::cvMatToQPixmap(g_BGRImage);
+        }else{
+            cv::imwrite(interfaces[nPort]->dirName.toStdString(),g_BGRImage);
+            //qDebug()<< "write image to "<<interfaces[nPort]->dirName;
+            interfaces[nPort]->imageStatus = 1;// 设置为正在被检测
+            interfaces[nPort]->objectDetection.createDetection();
+            interfaces[nPort]->objectDetection.detection(QString("../").append(interfaces[nPort]->dirName));
+        }
         YUVImage.~Mat();
+        interfaces[nPort]->mutex.unlock();
     }
 }
 
@@ -104,10 +124,22 @@ void MyInterface::setLogin(QString ip,QString userName,QString passwd,int port){
 }
 
 QPixmap MyInterface::getPixmap(){
-    if(isLogin)
+    if(isLogin){
+        mutex.lock();
+        int count = 0;
+        while(this->imageStatus != 2 && count < 5)
+        {
+            count++;
+            waitCondition.wait(&mutex,50);
+        }
+        if(this->imageStatus == 2){
+            this->imageStatus = 3;
+        }
+        mutex.unlock();
         return pixmap;
         //return QPixmap(QString("./image/port/%1").arg(nPort).append("/tmp.jpg"));
         //return getPixmapFromRemote();
+    }
     else{
         currentIndex = (currentIndex+qrand()%10)%50;
         //return QPixmap(QString("./image/%1.jpg").arg(currentIndex));
@@ -184,6 +216,10 @@ bool MyInterface::login(){
     }
 
     this->isLogin = true;
+    objectDetection.reconnect();
+    QObject::connect(&objectDetection, SIGNAL(detectionFinish(QString, vector<ObjectItem>))
+                     ,this, SLOT(onDetectionFinish(QString, vector<ObjectItem>)));
+    imageStatus = 0;
     return true;
 }
 
@@ -207,4 +243,27 @@ QPixmap MyInterface::getPixmapFromRemote(){
         return QPixmap();
     }
     qDebug()<<"getPixmapFromRemote:"<<t.toString("hh:mm:ss.zzz")<<"elapsed:"<<t.elapsed();
+}
+
+void MyInterface::onDetectionFinish(QString filename, vector<ObjectItem> items){
+    qDebug()<<"onDetectionFinish";
+    mutex.lock();
+    this->pixmap = QPixmap(this->dirName);
+    if(items.empty()){
+        qDebug()<<"onDetectionFinish1";
+        this->imageStatus = 2;
+        mutex.unlock();
+        return;
+    }
+    int count = items.size();
+    QPainter painter(&pixmap);
+    for (int i = 0; i < count; i++){
+//        qDebug()<<"filename:"<<filename<<","<<items[i].name;
+        painter.drawRect(QRect(items[i].startPoint,items[i].endPoint));
+    }
+    this->imageStatus = 2;
+    waitCondition.wakeAll();
+    mutex.unlock();
+    qDebug()<<"onDetectionFinish2";
+
 }

@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -27,7 +27,10 @@ SOURCES += main.cpp\
     cvutil.cpp \
     smallthread.cpp \
     fullthread.cpp \
-    bottomlabel.cpp
+    bottomlabel.cpp \
+    imageobjects.cpp \
+    objectdetection.cpp \
+    objectitem.cpp
 
 HEADERS  += mainwindow.h \
     myinterface.h \
@@ -37,6 +40,9 @@ HEADERS  += mainwindow.h \
     smallthread.h \
     fullthread.h \
     bottomlabel.h \
-    PlayM4.h
+    PlayM4.h \
+    imageobjects.h \
+    objectdetection.h \
+    objectitem.h
 
 FORMS    += mainwindow.ui

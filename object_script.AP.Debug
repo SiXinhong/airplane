@@ -8,8 +8,13 @@ INPUT(
 ./debug\smallthread.o
 ./debug\fullthread.o
 ./debug\bottomlabel.o
+./debug\imageobjects.o
+./debug\objectdetection.o
+./debug\objectitem.o
 ./debug\moc_mainwindow.o
+./debug\moc_myinterface.o
 ./debug\moc_smallwidget.o
 ./debug\moc_fullscreen.o
 ./debug\moc_bottomlabel.o
+./debug\moc_objectdetection.o
 );

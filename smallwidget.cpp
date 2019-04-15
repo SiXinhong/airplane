@@ -89,13 +89,13 @@ void SmallWidget::showNext(){
     QTime t = QTime::currentTime();
     t.start();
     QPixmap upmap = threadInterface->getPixmap();
-    if(number == 5)
-        qDebug()<<"showNext-currentTime:"<<t.toString("hh:mm:ss.zzz")<<"getPixmap elapsed:"<<t.elapsed();
+//    if(number == 5)
+//        qDebug()<<"showNext-currentTime:"<<t.toString("hh:mm:ss.zzz")<<"getPixmap elapsed:"<<t.elapsed();
     upLabel->setPixmap(upmap);
     upScreen.label.setPixmap(upmap);
     downLabel->setPixmap(upmap);
     downScreen.label.setPixmap(upmap);
     threadInterface->getNext();
-    if(number == 5)
-        qDebug()<<"showNext-total time:"<<t.elapsed();
+//    if(number == 5)
+//        qDebug()<<"showNext-total time:"<<t.elapsed();
 }

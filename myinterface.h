@@ -4,9 +4,11 @@
 #include <QVector>
 #include <Windows.h>
 #include <HCNetSDK.h>
+#include "objectdetection.h"
 
-class MyInterface
+class MyInterface :  public QObject
 {
+    Q_OBJECT
 public:
     MyInterface(int start);
     MyInterface(int start,QString ip,QString userName,QString passwd,int port);
@@ -30,6 +32,14 @@ public:
     QString dirName;
     LONG nPort;//播放库通道号
     QPixmap pixmap;
+    ObjectDetection objectDetection;
+    QMutex mutex;
+    QWaitCondition waitCondition;
+    int imageStatus;// -1:初始化，不做任何动作0：无图片文件，1：正在被检测，2：检测成功，已存入this.pixmap，3：已读取过this.pixmap
+    bool isOpenDetectSwitch;// 是否开启检测目标的开关，true:打开检测,false:关闭检测
+
+public slots:
+    void onDetectionFinish(QString filename, vector<ObjectItem>);
 };
 
 #endif // MYINTERFACE_H
