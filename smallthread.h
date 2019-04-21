@@ -6,6 +6,8 @@
 #include <QMutex>
 #include <QWaitCondition>
 #include "myinterface.h"
+#include "hkinterface.h"
+#include "dahuainterface.h"
 
 class SmallThread: public QThread
 {

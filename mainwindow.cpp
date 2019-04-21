@@ -34,6 +34,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ConfigUtil::readConfigs();
     QWidget* widget = new QWidget(this);
     gridlayout = new QGridLayout();
     this->setCentralWidget(widget);

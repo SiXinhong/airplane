@@ -11,10 +11,15 @@ INPUT(
 ./release\imageobjects.o
 ./release\objectdetection.o
 ./release\objectitem.o
+./release\dahuainterface.o
+./release\configutil.o
+./release\hkinterface.o
 ./release\moc_mainwindow.o
 ./release\moc_myinterface.o
 ./release\moc_smallwidget.o
 ./release\moc_fullscreen.o
 ./release\moc_bottomlabel.o
 ./release\moc_objectdetection.o
+./release\moc_dahuainterface.o
+./release\moc_hkinterface.o
 );

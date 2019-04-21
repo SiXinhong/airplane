@@ -26,6 +26,7 @@
 #include "smallthread.h"
 #include "smallwidget.h"
 #include "bottomlabel.h"
+#include "configutil.h"
 
 using namespace cv;
 using namespace std;

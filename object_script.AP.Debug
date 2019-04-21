@@ -11,10 +11,15 @@ INPUT(
 ./debug\imageobjects.o
 ./debug\objectdetection.o
 ./debug\objectitem.o
+./debug\dahuainterface.o
+./debug\configutil.o
+./debug\hkinterface.o
 ./debug\moc_mainwindow.o
 ./debug\moc_myinterface.o
 ./debug\moc_smallwidget.o
 ./debug\moc_fullscreen.o
 ./debug\moc_bottomlabel.o
 ./debug\moc_objectdetection.o
+./debug\moc_dahuainterface.o
+./debug\moc_hkinterface.o
 );

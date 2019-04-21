@@ -1,14 +1,20 @@
 #include "smallthread.h"
 #include "myinterface.h"
+#include "configutil.h"
 
 SmallThread::SmallThread(int number)
 {
     setNumber(number);
-    inter = new MyInterface(number);
+    if(ConfigUtil::isOpenCam[number] == 1){
+        inter = new HkInterface(number);
+    }else{
+        inter = new DahuaInterface(number);
+    }
     isOk = false;
     isRun = false;
-    if(number == 5){
-        inter->setLogin(QString("192.168.1.64"),QString("admin"),QString("abc123456"),8000);
+    if(ConfigUtil::isOpenCam[number] != 0){
+        inter->setLogin(ConfigUtil::ip[number], ConfigUtil::user[number],
+                        ConfigUtil::passwd[number], ConfigUtil::port[number]);
         for(int i=0;!inter->isLogin && i<5;i++){
             inter->login();
         }
