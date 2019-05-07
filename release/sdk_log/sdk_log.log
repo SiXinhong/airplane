@@ -1,0 +1,1278 @@
+Begin Time:2019-04-20 13:45:19.186
+[2019-04-20 13:45:19.186][P:11400/T:11352][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 13:45:19.439][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E720000
+
+[2019-04-20 13:45:19.451][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:19.687][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:19.720][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E920000
+
+[2019-04-20 13:45:19.722][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:19.938][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:19.971][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000F740000
+
+[2019-04-20 13:45:19.973][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:20.241][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:20.273][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000211E0000
+
+[2019-04-20 13:45:20.275][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:20.502][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:20.533][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000027AD0000
+
+[2019-04-20 13:45:20.535][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:20.764][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:20.796][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002E3C0000
+
+[2019-04-20 13:45:20.798][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:21.023][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:21.054][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000033CE0000
+
+[2019-04-20 13:45:21.056][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:21.291][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:21.322][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003A5D0000
+
+[2019-04-20 13:45:21.324][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:21.552][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:21.586][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000040EC0000
+
+[2019-04-20 13:45:21.588][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:21.807][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:21.840][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000467E0000
+
+[2019-04-20 13:45:21.842][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:22.115][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:22.149][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004D0D0000
+
+[2019-04-20 13:45:22.151][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:22.151][P:11400/T:11352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 13:45:22.987][P:11400/T:11352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=33718224.]
+[2019-04-20 13:45:23.006][P:11400/T:11352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=33718224. nChannelID=1. rType=0]
+[2019-04-20 13:45:23.030][P:11400/T:11352][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 13:45:23.030][P:11400/T:11352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 13:45:23.030][P:11400/T:11352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 13:45:23.690][P:11400/T:11352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=33823792.]
+[2019-04-20 13:45:23.692][P:11400/T:11352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=33823792. nChannelID=1. rType=0]
+[2019-04-20 13:45:23.898][P:11400/T:11352][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 13:45:23.898][P:11400/T:11352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 13:45:23.898][P:11400/T:11352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 13:45:24.675][P:11400/T:11352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=33897808.]
+[2019-04-20 13:45:24.676][P:11400/T:11352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=33897808. nChannelID=1. rType=0]
+[2019-04-20 13:45:24.683][P:11400/T:11352][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 13:45:24.683][P:11400/T:11352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 13:45:24.683][P:11400/T:11352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 13:45:25.476][P:11400/T:11352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=33971824.]
+[2019-04-20 13:45:25.477][P:11400/T:11352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=33971824. nChannelID=1. rType=0]
+[2019-04-20 13:45:25.483][P:11400/T:11352][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 13:45:25.484][P:11400/T:11352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 13:45:25.484][P:11400/T:11352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 13:45:26.267][P:11400/T:11352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1298114768.]
+[2019-04-20 13:45:26.268][P:11400/T:11352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=1298114768. nChannelID=1. rType=0]
+[2019-04-20 13:45:26.273][P:11400/T:11352][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 13:45:26.273][P:11400/T:11352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 13:45:26.716][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:26.748][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000054400000
+
+[2019-04-20 13:45:26.750][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:26.930][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:26.963][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005ACF0000
+
+[2019-04-20 13:45:26.965][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:27.144][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:27.177][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000060610000
+
+[2019-04-20 13:45:27.179][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:27.366][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:27.398][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000060E90000
+
+[2019-04-20 13:45:27.400][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:27.581][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:27.610][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000061CE0000
+
+[2019-04-20 13:45:27.612][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:27.793][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:27.824][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000062360000
+
+[2019-04-20 13:45:27.826][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:28.006][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 13:45:28.037][P:11400/T:11352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000063EB0000
+
+[2019-04-20 13:45:28.039][P:11400/T:11352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 13:45:28.220][P:11400/T:11352][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+Begin Time:2019-04-20 14:37:29.209
+[2019-04-20 14:37:29.209][P:11872/T:11920][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 14:37:29.244][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000EB10000
+
+[2019-04-20 14:37:29.246][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:29.488][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:29.522][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000F390000
+
+[2019-04-20 14:37:29.524][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:29.790][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:29.823][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000001C140000
+
+[2019-04-20 14:37:29.825][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:30.064][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:30.098][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000216B0000
+
+[2019-04-20 14:37:30.101][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:30.340][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:30.373][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000027FA0000
+
+[2019-04-20 14:37:30.375][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:30.602][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:30.635][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002E890000
+
+[2019-04-20 14:37:30.637][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:30.859][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:30.893][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000341B0000
+
+[2019-04-20 14:37:30.895][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:31.141][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:31.176][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003AAA0000
+
+[2019-04-20 14:37:31.178][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:31.421][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:31.456][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000041390000
+
+[2019-04-20 14:37:31.458][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:31.681][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:31.715][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000046CB0000
+
+[2019-04-20 14:37:31.717][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:31.962][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:31.997][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004D5A0000
+
+[2019-04-20 14:37:31.999][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:37:31.999][P:11872/T:11920][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:37:32.706][P:11872/T:11920][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=33456080.]
+[2019-04-20 14:37:32.706][P:11872/T:11920][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=33456080. nChannelID=1. rType=0]
+[2019-04-20 14:37:32.910][P:11872/T:11920][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 14:37:32.910][P:11872/T:11920][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:37:32.911][P:11872/T:11920][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:37:33.699][P:11872/T:11920][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=33553088.]
+[2019-04-20 14:37:33.699][P:11872/T:11920][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=33553088. nChannelID=1. rType=0]
+[2019-04-20 14:37:33.706][P:11872/T:11920][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 14:37:33.706][P:11872/T:11920][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:37:33.707][P:11872/T:11920][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:37:34.500][P:11872/T:11920][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=33635296.]
+[2019-04-20 14:37:34.500][P:11872/T:11920][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=33635296. nChannelID=1. rType=0]
+[2019-04-20 14:37:34.507][P:11872/T:11920][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 14:37:34.508][P:11872/T:11920][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:37:34.508][P:11872/T:11920][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:37:35.295][P:11872/T:11920][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=33709312.]
+[2019-04-20 14:37:35.295][P:11872/T:11920][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=33709312. nChannelID=1. rType=0]
+[2019-04-20 14:37:35.299][P:11872/T:11920][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 14:37:35.299][P:11872/T:11920][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:37:35.300][P:11872/T:11920][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:37:36.095][P:11872/T:11920][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1301981392.]
+[2019-04-20 14:37:36.095][P:11872/T:11920][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=1301981392. nChannelID=1. rType=0]
+[2019-04-20 14:37:36.101][P:11872/T:11920][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 14:37:36.101][P:11872/T:11920][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:37:39.412][P:11872/T:11920][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:37:39.446][P:11872/T:11920][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000053F10000
+
+[2019-04-20 14:37:39.448][P:11872/T:11920][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-20 14:38:03.159
+[2019-04-20 14:38:03.159][P:11432/T:10396][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 14:38:03.194][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E520000
+
+[2019-04-20 14:38:03.196][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:03.413][P:11432/T:10396][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:38:03.448][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000EDA0000
+
+[2019-04-20 14:38:03.449][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:03.665][P:11432/T:10396][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:38:03.698][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000001C140000
+
+[2019-04-20 14:38:03.700][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:03.919][P:11432/T:10396][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:38:03.954][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000216B0000
+
+[2019-04-20 14:38:03.956][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:04.202][P:11432/T:10396][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:38:04.236][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000027DF0000
+
+[2019-04-20 14:38:04.238][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:04.463][P:11432/T:10396][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:38:04.499][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002E6E0000
+
+[2019-04-20 14:38:04.501][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:04.734][P:11432/T:10396][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:38:04.769][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000034000000
+
+[2019-04-20 14:38:04.771][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:05.026][P:11432/T:10396][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:38:05.061][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003A8F0000
+
+[2019-04-20 14:38:05.063][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:05.316][P:11432/T:10396][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:38:05.350][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000411E0000
+
+[2019-04-20 14:38:05.352][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:05.555][P:11432/T:10396][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:38:05.588][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000046B00000
+
+[2019-04-20 14:38:05.590][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:05.819][P:11432/T:10396][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:38:05.854][P:11432/T:10396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004D3F0000
+
+[2019-04-20 14:38:05.856][P:11432/T:10396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:38:05.856][P:11432/T:10396][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:38:06.497][P:11432/T:10396][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=32881616.]
+[2019-04-20 14:38:06.497][P:11432/T:10396][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=32881616. nChannelID=2. rType=0]
+[2019-04-20 14:38:06.502][P:11432/T:10396][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):2
+[2019-04-20 14:38:06.502][P:11432/T:10396][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:38:06.502][P:11432/T:10396][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:38:07.297][P:11432/T:10396][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=32988608.]
+[2019-04-20 14:38:07.297][P:11432/T:10396][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=32988608. nChannelID=2. rType=0]
+[2019-04-20 14:38:07.302][P:11432/T:10396][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):2
+[2019-04-20 14:38:07.303][P:11432/T:10396][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:38:07.303][P:11432/T:10396][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:38:08.097][P:11432/T:10396][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=33062624.]
+[2019-04-20 14:38:08.097][P:11432/T:10396][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=33062624. nChannelID=2. rType=0]
+[2019-04-20 14:38:08.102][P:11432/T:10396][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):2
+[2019-04-20 14:38:08.103][P:11432/T:10396][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:38:08.103][P:11432/T:10396][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:38:08.898][P:11432/T:10396][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1299691712.]
+[2019-04-20 14:38:08.898][P:11432/T:10396][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=1299691712. nChannelID=2. rType=0]
+[2019-04-20 14:38:08.904][P:11432/T:10396][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):2
+[2019-04-20 14:38:08.904][P:11432/T:10396][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:38:08.904][P:11432/T:10396][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+Begin Time:2019-04-20 14:41:01.526
+[2019-04-20 14:41:01.526][P:5804/T:11536][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 14:41:01.563][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E4C0000
+
+[2019-04-20 14:41:01.565][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:01.830][P:5804/T:11536][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:41:01.864][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000ED40000
+
+[2019-04-20 14:41:01.867][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:02.099][P:5804/T:11536][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:41:02.130][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000001C140000
+
+[2019-04-20 14:41:02.132][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:02.399][P:5804/T:11536][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:41:02.435][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000214B0000
+
+[2019-04-20 14:41:02.437][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:02.678][P:5804/T:11536][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:41:02.711][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000027DA0000
+
+[2019-04-20 14:41:02.713][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:02.924][P:5804/T:11536][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:41:02.958][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002E690000
+
+[2019-04-20 14:41:02.960][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:03.203][P:5804/T:11536][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:41:03.238][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000033FB0000
+
+[2019-04-20 14:41:03.241][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:03.472][P:5804/T:11536][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:41:03.508][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003A8A0000
+
+[2019-04-20 14:41:03.510][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:03.724][P:5804/T:11536][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:41:03.760][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000041190000
+
+[2019-04-20 14:41:03.762][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:03.975][P:5804/T:11536][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:41:04.010][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000046AB0000
+
+[2019-04-20 14:41:04.012][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:04.259][P:5804/T:11536][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:41:04.294][P:5804/T:11536][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004D3A0000
+
+[2019-04-20 14:41:04.296][P:5804/T:11536][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:41:04.296][P:5804/T:11536][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:41:05.023][P:5804/T:11536][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=32865232.]
+[2019-04-20 14:41:05.023][P:5804/T:11536][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=32865232. nChannelID=1. rType=0]
+[2019-04-20 14:41:05.233][P:5804/T:11536][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 14:41:05.234][P:5804/T:11536][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:41:05.234][P:5804/T:11536][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:41:05.992][P:5804/T:11536][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=32972224.]
+[2019-04-20 14:41:05.992][P:5804/T:11536][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=32972224. nChannelID=1. rType=0]
+[2019-04-20 14:41:05.998][P:5804/T:11536][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 14:41:05.999][P:5804/T:11536][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:41:05.999][P:5804/T:11536][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:41:06.793][P:5804/T:11536][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=33046240.]
+[2019-04-20 14:41:06.793][P:5804/T:11536][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=33046240. nChannelID=1. rType=0]
+[2019-04-20 14:41:06.798][P:5804/T:11536][RealPlay.cpp:641][Error][80000007] Invalid param(ChannelID):1
+[2019-04-20 14:41:06.798][P:5804/T:11536][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=0]
+[2019-04-20 14:41:06.798][P:5804/T:11536][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+Begin Time:2019-04-20 14:52:59.160
+[2019-04-20 14:52:59.160][P:3348/T:3296][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 14:52:59.195][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E690000
+
+[2019-04-20 14:52:59.197][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:52:59.527][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:52:59.561][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000EF10000
+
+[2019-04-20 14:52:59.563][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:52:59.775][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:52:59.809][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000001C140000
+
+[2019-04-20 14:52:59.811][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:00.048][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:00.081][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000021860000
+
+[2019-04-20 14:53:00.083][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:00.325][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:00.368][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000028150000
+
+[2019-04-20 14:53:00.370][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:00.593][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:00.627][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002EA40000
+
+[2019-04-20 14:53:00.629][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:00.911][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:00.943][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000034360000
+
+[2019-04-20 14:53:00.945][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:01.150][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:01.184][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003AC50000
+
+[2019-04-20 14:53:01.186][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:01.381][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:01.415][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000041540000
+
+[2019-04-20 14:53:01.417][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:01.674][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:01.709][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000046E60000
+
+[2019-04-20 14:53:01.711][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:01.917][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:01.952][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004D750000
+
+[2019-04-20 14:53:01.954][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:01.954][P:3348/T:3296][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:53:02.656][P:3348/T:3296][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=58621904.]
+[2019-04-20 14:53:02.657][P:3348/T:3296][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=58621904. nChannelID=0. rType=0]
+[2019-04-20 14:53:03.004][P:3348/T:3296][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=58145376]
+[2019-04-20 14:53:03.010][P:3348/T:3296][dhnetsdk.cpp:2221][Info][0] Enter CLIENT_SetRealDataCallBackEx. [lRealHandle=58145376. cbRealData=000000000040C990, dwUser=000000002DE40C40. dwFlag=15.]
+[2019-04-20 14:53:03.010][P:3348/T:3296][dhnetsdk.cpp:2243][Info][0] Leave CLIENT_SetRealDataCallBackEx.[ret=1.]
+[2019-04-20 14:53:05.851][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:05.885][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000541B0000
+
+[2019-04-20 14:53:05.887][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:06.137][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:06.173][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005AAA0000
+
+[2019-04-20 14:53:06.175][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:06.455][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:06.490][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000603C0000
+
+[2019-04-20 14:53:06.491][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:06.704][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:06.738][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000060C40000
+
+[2019-04-20 14:53:06.740][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:06.977][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:07.013][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000061860000
+
+[2019-04-20 14:53:07.015][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:07.238][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:07.273][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000621B0000
+
+[2019-04-20 14:53:07.275][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:07.494][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:07.530][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000063EB0000
+
+[2019-04-20 14:53:07.533][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:07.778][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:07.819][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000065930000
+
+[2019-04-20 14:53:07.821][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:08.065][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:08.103][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067B30000
+
+[2019-04-20 14:53:08.105][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:08.301][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:08.336][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000068000000
+
+[2019-04-20 14:53:08.338][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:08.533][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:08.567][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000068B80000
+
+[2019-04-20 14:53:08.569][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:08.763][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:08.796][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000069460000
+
+[2019-04-20 14:53:08.798][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:53:08.989][P:3348/T:3296][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:53:09.025][P:3348/T:3296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006B690000
+
+[2019-04-20 14:53:09.027][P:3348/T:3296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-20 14:56:45.850
+[2019-04-20 14:56:45.850][P:11360/T:10408][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 14:56:45.885][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E560000
+
+[2019-04-20 14:56:45.887][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:46.077][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:46.111][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000EDE0000
+
+[2019-04-20 14:56:46.113][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:46.339][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:46.373][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000001C140000
+
+[2019-04-20 14:56:46.375][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:46.662][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:46.697][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000216B0000
+
+[2019-04-20 14:56:46.699][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:46.895][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:46.928][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000027DF0000
+
+[2019-04-20 14:56:46.930][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:47.147][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:47.182][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002E6E0000
+
+[2019-04-20 14:56:47.184][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:47.409][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:47.445][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000034000000
+
+[2019-04-20 14:56:47.447][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:47.664][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:47.698][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003A8F0000
+
+[2019-04-20 14:56:47.699][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:47.934][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:47.971][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000411E0000
+
+[2019-04-20 14:56:47.973][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:48.153][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:48.188][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000046B00000
+
+[2019-04-20 14:56:48.190][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:48.414][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:48.448][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004D3F0000
+
+[2019-04-20 14:56:48.450][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:48.450][P:11360/T:10408][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:56:49.204][P:11360/T:10408][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=32682352.]
+[2019-04-20 14:56:49.205][P:11360/T:10408][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=32682352. nChannelID=0. rType=0]
+[2019-04-20 14:56:49.404][P:11360/T:10408][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=32768352]
+[2019-04-20 14:56:49.405][P:11360/T:10408][dhnetsdk.cpp:2221][Info][0] Enter CLIENT_SetRealDataCallBackEx. [lRealHandle=32768352. cbRealData=000000000040D240, dwUser=0000000020EE3B90. dwFlag=15.]
+[2019-04-20 14:56:49.405][P:11360/T:10408][dhnetsdk.cpp:2243][Info][0] Leave CLIENT_SetRealDataCallBackEx.[ret=1.]
+[2019-04-20 14:56:49.897][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:49.932][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000544A0000
+
+[2019-04-20 14:56:49.934][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:50.127][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:50.162][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005AD90000
+
+[2019-04-20 14:56:50.164][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:50.347][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:50.382][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000606B0000
+
+[2019-04-20 14:56:50.384][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:50.604][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:50.639][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000060F30000
+
+[2019-04-20 14:56:50.641][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:50.855][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:50.890][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000061CE0000
+
+[2019-04-20 14:56:50.892][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:51.112][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:51.146][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000062560000
+
+[2019-04-20 14:56:51.148][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:51.350][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:51.385][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000640B0000
+
+[2019-04-20 14:56:51.387][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:51.570][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:51.604][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000065930000
+
+[2019-04-20 14:56:51.606][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:51.823][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:51.857][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067B30000
+
+[2019-04-20 14:56:51.859][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:52.073][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:52.109][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000686F0000
+
+[2019-04-20 14:56:52.111][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:52.321][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:52.356][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000068E50000
+
+[2019-04-20 14:56:52.358][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:52.569][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:52.602][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006AFA0000
+
+[2019-04-20 14:56:52.605][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:56:52.806][P:11360/T:10408][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:56:52.842][P:11360/T:10408][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006D240000
+
+[2019-04-20 14:56:52.844][P:11360/T:10408][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-20 14:57:50.465
+[2019-04-20 14:57:50.465][P:1500/T:12196][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 14:57:50.500][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E490000
+
+[2019-04-20 14:57:50.501][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:50.746][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:50.780][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000ED10000
+
+[2019-04-20 14:57:50.782][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:51.014][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:51.048][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000FA90000
+
+[2019-04-20 14:57:51.050][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:51.306][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:51.341][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000216B0000
+
+[2019-04-20 14:57:51.343][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:51.567][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:51.601][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000027DF0000
+
+[2019-04-20 14:57:51.603][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:51.837][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:51.872][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002E6E0000
+
+[2019-04-20 14:57:51.874][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:52.102][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:52.136][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000034000000
+
+[2019-04-20 14:57:52.138][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:52.376][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:52.411][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003A8F0000
+
+[2019-04-20 14:57:52.413][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:52.668][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:52.703][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000411E0000
+
+[2019-04-20 14:57:52.705][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:52.997][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:53.031][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000046B00000
+
+[2019-04-20 14:57:53.033][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:53.271][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:53.304][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004D3F0000
+
+[2019-04-20 14:57:53.307][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:53.307][P:1500/T:12196][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:57:53.962][P:1500/T:12196][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=57049040.]
+[2019-04-20 14:57:53.963][P:1500/T:12196][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=57049040. nChannelID=0. rType=0]
+[2019-04-20 14:57:54.304][P:1500/T:12196][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=56572512]
+[2019-04-20 14:57:54.304][P:1500/T:12196][dhnetsdk.cpp:2221][Info][0] Enter CLIENT_SetRealDataCallBackEx. [lRealHandle=56572512. cbRealData=000000000040D240, dwUser=000000002D707D00. dwFlag=15.]
+[2019-04-20 14:57:54.304][P:1500/T:12196][dhnetsdk.cpp:2243][Info][0] Leave CLIENT_SetRealDataCallBackEx.[ret=1.]
+[2019-04-20 14:57:54.796][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:54.828][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000054550000
+
+[2019-04-20 14:57:54.830][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:55.051][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:55.086][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005AE40000
+
+[2019-04-20 14:57:55.088][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:55.310][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:55.346][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000060760000
+
+[2019-04-20 14:57:55.348][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:55.593][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:55.629][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000060FE0000
+
+[2019-04-20 14:57:55.631][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:55.834][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:55.868][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000061CE0000
+
+[2019-04-20 14:57:55.870][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:56.054][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:56.089][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000062560000
+
+[2019-04-20 14:57:56.091][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:56.297][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:56.332][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000640B0000
+
+[2019-04-20 14:57:56.335][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:56.567][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:56.601][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000065930000
+
+[2019-04-20 14:57:56.603][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:56.822][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:56.857][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067B30000
+
+[2019-04-20 14:57:56.860][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:57.080][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:57.115][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000686F0000
+
+[2019-04-20 14:57:57.117][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:57.387][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:57.423][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000068E50000
+
+[2019-04-20 14:57:57.425][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:57.632][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:57.668][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006AFA0000
+
+[2019-04-20 14:57:57.670][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:57:57.888][P:1500/T:12196][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:57:57.923][P:1500/T:12196][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006D240000
+
+[2019-04-20 14:57:57.925][P:1500/T:12196][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-20 14:58:53.147
+[2019-04-20 14:58:53.147][P:11576/T:11340][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 14:58:53.180][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E730000
+
+[2019-04-20 14:58:53.182][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:53.419][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:53.454][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000EFB0000
+
+[2019-04-20 14:58:53.456][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:53.686][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:53.720][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000001C140000
+
+[2019-04-20 14:58:53.722][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:53.956][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:53.991][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000021860000
+
+[2019-04-20 14:58:53.993][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:54.266][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:54.301][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000028150000
+
+[2019-04-20 14:58:54.303][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:54.504][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:54.538][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002EA40000
+
+[2019-04-20 14:58:54.540][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:54.756][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:54.791][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000034360000
+
+[2019-04-20 14:58:54.793][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:54.982][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:55.018][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003AC50000
+
+[2019-04-20 14:58:55.020][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:55.238][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:55.273][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000041540000
+
+[2019-04-20 14:58:55.275][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:55.564][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:55.598][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000046E60000
+
+[2019-04-20 14:58:55.600][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:55.854][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:55.888][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004D750000
+
+[2019-04-20 14:58:55.890][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:55.890][P:11576/T:11340][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 14:58:56.609][P:11576/T:11340][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=57966544.]
+[2019-04-20 14:58:56.610][P:11576/T:11340][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=57966544. nChannelID=0. rType=0]
+[2019-04-20 14:58:56.811][P:11576/T:11340][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=57490016]
+[2019-04-20 14:58:56.811][P:11576/T:11340][dhnetsdk.cpp:2221][Info][0] Enter CLIENT_SetRealDataCallBackEx. [lRealHandle=57490016. cbRealData=000000000040D4D0, dwUser=000000002EA2FC20. dwFlag=15.]
+[2019-04-20 14:58:56.811][P:11576/T:11340][dhnetsdk.cpp:2243][Info][0] Leave CLIENT_SetRealDataCallBackEx.[ret=1.]
+[2019-04-20 14:58:57.303][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:57.339][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000054840000
+
+[2019-04-20 14:58:57.342][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:57.568][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:57.603][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005B130000
+
+[2019-04-20 14:58:57.605][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:57.818][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:57.853][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000060A50000
+
+[2019-04-20 14:58:57.855][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:58.050][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:58.086][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000061660000
+
+[2019-04-20 14:58:58.088][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:58.319][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:58.353][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000061FB0000
+
+[2019-04-20 14:58:58.355][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:58.568][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:58.601][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000062830000
+
+[2019-04-20 14:58:58.603][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:58.788][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:58.822][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000064380000
+
+[2019-04-20 14:58:58.825][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:59.009][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:59.043][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067B30000
+
+[2019-04-20 14:58:59.045][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:59.250][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:59.285][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067D30000
+
+[2019-04-20 14:58:59.287][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:59.507][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:59.543][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000686F0000
+
+[2019-04-20 14:58:59.546][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:59.728][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:58:59.764][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000069460000
+
+[2019-04-20 14:58:59.766][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:58:59.981][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:59:00.015][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006B690000
+
+[2019-04-20 14:59:00.017][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 14:59:00.203][P:11576/T:11340][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 14:59:00.238][P:11576/T:11340][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006D240000
+
+[2019-04-20 14:59:00.240][P:11576/T:11340][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-20 15:42:07.434
+[2019-04-20 15:42:07.434][P:7008/T:13192][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 15:42:07.463][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000010E60000
+
+[2019-04-20 15:42:07.464][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:07.697][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:07.725][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000017750000
+
+[2019-04-20 15:42:07.726][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:07.946][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:07.974][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000001E040000
+
+[2019-04-20 15:42:07.975][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:08.184][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:08.213][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000023960000
+
+[2019-04-20 15:42:08.214][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:08.442][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:08.470][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002A250000
+
+[2019-04-20 15:42:08.472][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:08.695][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:08.723][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000030B40000
+
+[2019-04-20 15:42:08.723][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:08.939][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:08.967][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000036460000
+
+[2019-04-20 15:42:08.968][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:09.180][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:09.208][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003CD50000
+
+[2019-04-20 15:42:09.209][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:09.410][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:09.438][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000043640000
+
+[2019-04-20 15:42:09.440][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:09.652][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:09.680][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000048F60000
+
+[2019-04-20 15:42:09.681][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:09.897][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:09.926][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004F850000
+
+[2019-04-20 15:42:09.928][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:09.928][P:7008/T:13192][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 15:42:10.717][P:7008/T:13192][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=94928848.]
+[2019-04-20 15:42:10.718][P:7008/T:13192][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=94928848. nChannelID=0. rType=0]
+[2019-04-20 15:42:10.923][P:7008/T:13192][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=94452320]
+[2019-04-20 15:42:10.923][P:7008/T:13192][dhnetsdk.cpp:2221][Info][0] Enter CLIENT_SetRealDataCallBackEx. [lRealHandle=94452320. cbRealData=000000000040D4D0, dwUser=0000000030B2FC20. dwFlag=15.]
+[2019-04-20 15:42:10.923][P:7008/T:13192][dhnetsdk.cpp:2243][Info][0] Leave CLIENT_SetRealDataCallBackEx.[ret=1.]
+[2019-04-20 15:42:11.589][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:11.617][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000058D50000
+
+[2019-04-20 15:42:11.618][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:11.806][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:11.835][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005F640000
+
+[2019-04-20 15:42:11.836][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:12.026][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:12.055][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000060E90000
+
+[2019-04-20 15:42:12.056][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:12.261][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:12.289][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000061CE0000
+
+[2019-04-20 15:42:12.290][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:12.477][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:12.529][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000062360000
+
+[2019-04-20 15:42:12.530][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:12.725][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:12.756][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000063EB0000
+
+[2019-04-20 15:42:12.757][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:12.968][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:13.005][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000065930000
+
+[2019-04-20 15:42:13.005][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:13.212][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:13.252][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067B30000
+
+[2019-04-20 15:42:13.253][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:13.444][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:13.479][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000686F0000
+
+[2019-04-20 15:42:13.480][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:13.672][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:13.699][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000068D80000
+
+[2019-04-20 15:42:13.699][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:13.891][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:13.917][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006AFA0000
+
+[2019-04-20 15:42:13.918][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:14.108][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:14.134][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006B690000
+
+[2019-04-20 15:42:14.135][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:42:14.335][P:7008/T:13192][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:42:14.360][P:7008/T:13192][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006EDC0000
+
+[2019-04-20 15:42:14.361][P:7008/T:13192][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-20 15:46:44.537
+[2019-04-20 15:46:44.570][P:11424/T:12884][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 15:46:44.881][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000011060000
+
+[2019-04-20 15:46:44.883][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:45.122][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:46:45.142][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000017950000
+
+[2019-04-20 15:46:45.143][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:45.339][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:46:45.359][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000001E240000
+
+[2019-04-20 15:46:45.360][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:45.543][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:46:45.563][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000023B60000
+
+[2019-04-20 15:46:45.564][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:45.771][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:46:45.792][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002A450000
+
+[2019-04-20 15:46:45.793][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:46.002][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:46:46.022][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000030D40000
+
+[2019-04-20 15:46:46.023][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:46.275][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:46:46.295][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000036660000
+
+[2019-04-20 15:46:46.296][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:46.535][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:46:46.556][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003CF50000
+
+[2019-04-20 15:46:46.557][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:46.769][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:46:46.790][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000043840000
+
+[2019-04-20 15:46:46.791][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:47.005][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:46:47.025][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000049160000
+
+[2019-04-20 15:46:47.026][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:47.216][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:46:47.237][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004FA50000
+
+[2019-04-20 15:46:47.238][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:46:47.238][P:11424/T:12884][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 15:46:47.974][P:11424/T:12884][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=95922272.]
+[2019-04-20 15:46:47.975][P:11424/T:12884][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=95922272. nChannelID=0. rType=0]
+[2019-04-20 15:46:48.328][P:11424/T:12884][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=96008272]
+[2019-04-20 15:46:48.328][P:11424/T:12884][dhnetsdk.cpp:2221][Info][0] Enter CLIENT_SetRealDataCallBackEx. [lRealHandle=96008272. cbRealData=000000000040D240, dwUser=0000000035AE08F0. dwFlag=15.]
+[2019-04-20 15:46:48.328][P:11424/T:12884][dhnetsdk.cpp:2243][Info][0] Leave CLIENT_SetRealDataCallBackEx.[ret=1.]
+[2019-04-20 15:47:04.385][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:04.409][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000058630000
+
+[2019-04-20 15:47:04.409][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:04.618][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:04.642][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000057E40000
+
+[2019-04-20 15:47:04.643][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:04.852][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:04.870][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005F160000
+
+[2019-04-20 15:47:04.871][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:05.085][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:05.107][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005FC20000
+
+[2019-04-20 15:47:05.108][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:05.319][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:05.347][P:11424/T:12884][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000061660000
+
+[2019-04-20 15:47:05.348][P:11424/T:12884][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:05.556][P:11424/T:12884][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+Begin Time:2019-04-20 15:47:18.622
+[2019-04-20 15:47:18.622][P:12980/T:6324][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 15:47:18.642][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000011260000
+
+[2019-04-20 15:47:18.643][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:18.851][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:18.872][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000017B50000
+
+[2019-04-20 15:47:18.873][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:19.080][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:19.098][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000001E440000
+
+[2019-04-20 15:47:19.099][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:19.326][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:19.347][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000023D60000
+
+[2019-04-20 15:47:19.348][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:19.583][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:19.603][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002A650000
+
+[2019-04-20 15:47:19.604][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:19.825][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:19.845][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000030F40000
+
+[2019-04-20 15:47:19.846][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:20.058][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:20.078][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000036860000
+
+[2019-04-20 15:47:20.079][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:20.297][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:20.318][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003D150000
+
+[2019-04-20 15:47:20.319][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:20.544][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:20.564][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000043A40000
+
+[2019-04-20 15:47:20.565][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:20.744][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:20.765][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000049360000
+
+[2019-04-20 15:47:20.766][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:20.994][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:21.014][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004FC50000
+
+[2019-04-20 15:47:21.015][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:21.015][P:12980/T:6324][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 15:47:21.830][P:12980/T:6324][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=70105328.]
+[2019-04-20 15:47:21.830][P:12980/T:6324][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=70105328. nChannelID=0. rType=0]
+[2019-04-20 15:47:22.027][P:12980/T:6324][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=70192288]
+[2019-04-20 15:47:22.027][P:12980/T:6324][dhnetsdk.cpp:2221][Info][0] Enter CLIENT_SetRealDataCallBackEx. [lRealHandle=70192288. cbRealData=000000000040C990, dwUser=000000002F8E82B0. dwFlag=15.]
+[2019-04-20 15:47:22.027][P:12980/T:6324][dhnetsdk.cpp:2243][Info][0] Leave CLIENT_SetRealDataCallBackEx.[ret=1.]
+[2019-04-20 15:47:24.868][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:24.888][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005A2D0000
+
+[2019-04-20 15:47:24.889][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:25.097][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:25.117][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005A4D0000
+
+[2019-04-20 15:47:25.119][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:25.325][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:25.346][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000061660000
+
+[2019-04-20 15:47:25.347][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:25.564][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:25.585][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005F580000
+
+[2019-04-20 15:47:25.586][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:25.795][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:25.817][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000063EB0000
+
+[2019-04-20 15:47:25.818][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:26.027][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:26.046][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000061CE0000
+
+[2019-04-20 15:47:26.047][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:26.257][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:26.275][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000063EB0000
+
+[2019-04-20 15:47:26.276][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:26.488][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:26.509][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000064380000
+
+[2019-04-20 15:47:26.510][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:26.725][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:26.745][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000065930000
+
+[2019-04-20 15:47:26.746][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:26.957][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:26.975][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067D30000
+
+[2019-04-20 15:47:26.976][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:27.182][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:27.202][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067F30000
+
+[2019-04-20 15:47:27.203][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:27.413][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:27.436][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006AFA0000
+
+[2019-04-20 15:47:27.437][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:47:27.647][P:12980/T:6324][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:47:27.668][P:12980/T:6324][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000006B690000
+
+[2019-04-20 15:47:27.669][P:12980/T:6324][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-20 15:48:19.112
+[2019-04-20 15:48:19.112][P:11672/T:12364][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 15:48:19.133][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000011060000
+
+[2019-04-20 15:48:19.133][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:19.348][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:19.369][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000017950000
+
+[2019-04-20 15:48:19.371][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:19.603][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:19.624][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000001E240000
+
+[2019-04-20 15:48:19.625][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:19.856][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:19.877][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000023B60000
+
+[2019-04-20 15:48:19.877][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:20.083][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:20.104][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000002A450000
+
+[2019-04-20 15:48:20.105][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:20.324][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:20.345][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000030D40000
+
+[2019-04-20 15:48:20.346][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:20.579][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:20.598][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000036660000
+
+[2019-04-20 15:48:20.599][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:20.833][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:20.854][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000003CF50000
+
+[2019-04-20 15:48:20.854][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:21.062][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:21.082][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000043840000
+
+[2019-04-20 15:48:21.083][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:21.290][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:21.311][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000049160000
+
+[2019-04-20 15:48:21.312][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:21.516][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:21.536][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000004FA50000
+
+[2019-04-20 15:48:21.537][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:21.537][P:11672/T:12364][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000000022F880.]
+[2019-04-20 15:48:22.322][P:11672/T:12364][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=96696272.]
+[2019-04-20 15:48:22.322][P:11672/T:12364][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=96696272. nChannelID=0. rType=0]
+[2019-04-20 15:48:22.526][P:11672/T:12364][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=96816208]
+[2019-04-20 15:48:22.526][P:11672/T:12364][dhnetsdk.cpp:2221][Info][0] Enter CLIENT_SetRealDataCallBackEx. [lRealHandle=96816208. cbRealData=000000000040D020, dwUser=0000000030D2FC20. dwFlag=15.]
+[2019-04-20 15:48:22.526][P:11672/T:12364][dhnetsdk.cpp:2243][Info][0] Leave CLIENT_SetRealDataCallBackEx.[ret=1.]
+[2019-04-20 15:48:25.371][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:25.396][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000058320000
+
+[2019-04-20 15:48:25.398][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:25.614][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:25.632][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005AD80000
+
+[2019-04-20 15:48:25.633][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:25.841][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:25.864][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000060EE0000
+
+[2019-04-20 15:48:25.865][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:26.079][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:26.099][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005AF80000
+
+[2019-04-20 15:48:26.100][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:26.308][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:26.330][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000005FE30000
+
+[2019-04-20 15:48:26.330][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:26.539][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:26.561][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000606B0000
+
+[2019-04-20 15:48:26.562][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:26.762][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:26.783][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 00000000627A0000
+
+[2019-04-20 15:48:26.784][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:26.992][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:27.014][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000063EB0000
+
+[2019-04-20 15:48:27.018][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:27.227][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:27.249][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067B30000
+
+[2019-04-20 15:48:27.251][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:27.459][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:27.478][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067B30000
+
+[2019-04-20 15:48:27.479][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:27.687][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:27.707][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000067B30000
+
+[2019-04-20 15:48:27.708][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:27.918][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:27.938][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000069460000
+
+[2019-04-20 15:48:27.939][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-04-20 15:48:28.145][P:11672/T:12364][dhnetsdk.cpp:132][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000000000000000, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-04-20 15:48:28.165][P:11672/T:12364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0000000068D80000
+
+[2019-04-20 15:48:28.166][P:11672/T:12364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-20 15:49:09.126
+[2019-04-20 15:49:09.126][P:10408/T:13084][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-20 15:49:09.128][P:10408/T:13084][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DE10000
+
+[2019-04-20 15:49:09.128][P:10408/T:13084][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 00:39:37.223
+[2019-04-21 00:39:37.223][P:13216/T:15072][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 00:39:37.224][P:13216/T:15072][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DC10000
+
+[2019-04-21 00:39:37.224][P:13216/T:15072][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 00:45:49.683
+[2019-04-21 00:45:49.683][P:14164/T:14000][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 00:45:49.685][P:14164/T:14000][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DAA0000
+
+[2019-04-21 00:45:49.685][P:14164/T:14000][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 00:47:48.095
+[2019-04-21 00:47:48.095][P:8940/T:14360][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 00:47:48.096][P:8940/T:14360][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DD40000
+
+[2019-04-21 00:47:48.097][P:8940/T:14360][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 00:52:03.458
+[2019-04-21 00:52:03.458][P:11940/T:4100][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 00:52:03.458][P:11940/T:4100][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DBD0000
+
+[2019-04-21 00:52:03.458][P:11940/T:4100][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 00:53:05.268
+[2019-04-21 00:53:05.268][P:14608/T:14896][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 00:53:05.268][P:14608/T:14896][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DCC0000
+
+[2019-04-21 00:53:05.268][P:14608/T:14896][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 00:53:51.709
+[2019-04-21 00:53:51.709][P:15908/T:15912][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 00:53:51.725][P:15908/T:15912][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DD00000
+
+[2019-04-21 00:53:51.725][P:15908/T:15912][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 01:13:40.794
+[2019-04-21 01:13:40.794][P:16024/T:11372][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 01:13:40.795][P:16024/T:11372][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DDB0000
+
+[2019-04-21 01:13:40.795][P:16024/T:11372][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 01:16:18.943
+[2019-04-21 01:16:18.943][P:15400/T:640][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 01:16:18.945][P:15400/T:640][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DD90000
+
+[2019-04-21 01:16:18.945][P:15400/T:640][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 01:19:07.650
+[2019-04-21 01:19:07.650][P:15900/T:15604][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 01:19:07.652][P:15900/T:15604][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DA70000
+
+[2019-04-21 01:19:07.652][P:15900/T:15604][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 01:21:58.170
+[2019-04-21 01:21:58.170][P:9696/T:16292][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 01:21:58.172][P:9696/T:16292][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DC80000
+
+[2019-04-21 01:21:58.172][P:9696/T:16292][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 23:38:11.062
+[2019-04-21 23:38:11.069][P:7608/T:8096][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 23:38:11.078][P:7608/T:8096][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DBE0000
+
+[2019-04-21 23:38:11.078][P:7608/T:8096][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 23:38:33.148
+[2019-04-21 23:38:33.148][P:7924/T:8136][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 23:38:33.148][P:7924/T:8136][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DE30000
+
+[2019-04-21 23:38:33.148][P:7924/T:8136][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 23:53:16.995
+[2019-04-21 23:53:16.995][P:2912/T:8160][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 23:53:16.995][P:2912/T:8160][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DF70000
+
+[2019-04-21 23:53:16.995][P:2912/T:8160][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-21 23:56:56.100
+[2019-04-21 23:56:56.100][P:7988/T:7572][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-21 23:56:56.100][P:7988/T:7572][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DF10000
+
+[2019-04-21 23:56:56.100][P:7988/T:7572][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-22 00:00:41.966
+[2019-04-22 00:00:41.966][P:2316/T:7364][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-22 00:00:41.966][P:2316/T:7364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DEF0000
+
+[2019-04-22 00:00:41.966][P:2316/T:7364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-22 00:02:08.839
+[2019-04-22 00:02:08.839][P:4928/T:6524][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-22 00:02:08.839][P:4928/T:6524][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E150000
+
+[2019-04-22 00:02:08.839][P:4928/T:6524][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-22 00:03:38.062
+[2019-04-22 00:03:38.062][P:7712/T:3624][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-22 00:03:38.062][P:7712/T:3624][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E310000
+
+[2019-04-22 00:03:38.062][P:7712/T:3624][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-22 00:09:37.542
+[2019-04-22 00:09:37.542][P:7436/T:2972][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-22 00:09:37.542][P:7436/T:2972][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E210000
+
+[2019-04-22 00:09:37.542][P:7436/T:2972][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-22 00:12:58.421
+[2019-04-22 00:12:58.421][P:2972/T:3880][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-22 00:12:58.421][P:2972/T:3880][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E090000
+
+[2019-04-22 00:12:58.421][P:2972/T:3880][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-22 00:35:42.355
+[2019-04-22 00:35:42.359][P:6264/T:6468][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-22 00:35:42.362][P:6264/T:6468][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E370000
+
+[2019-04-22 00:35:42.362][P:6264/T:6468][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-22 00:37:56.804
+[2019-04-22 00:37:56.804][P:7716/T:7888][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-22 00:37:56.804][P:7716/T:7888][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E1C0000
+
+[2019-04-22 00:37:56.804][P:7716/T:7888][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:07:54.166
+[2019-04-24 13:07:54.171][P:7104/T:7108][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:07:54.179][P:7104/T:7108][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DA90000
+
+[2019-04-24 13:07:54.179][P:7104/T:7108][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:31:04.567
+[2019-04-24 13:31:04.567][P:1096/T:7500][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:31:04.567][P:1096/T:7500][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DED0000
+
+[2019-04-24 13:31:04.567][P:1096/T:7500][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:32:45.839
+[2019-04-24 13:32:45.839][P:7960/T:7948][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:32:45.840][P:7960/T:7948][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DCA0000
+
+[2019-04-24 13:32:45.840][P:7960/T:7948][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:33:24.700
+[2019-04-24 13:33:24.700][P:7044/T:2728][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:33:24.700][P:7044/T:2728][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DCD0000
+
+[2019-04-24 13:33:24.700][P:7044/T:2728][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:47:20.735
+[2019-04-24 13:47:20.735][P:6868/T:8168][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:47:20.735][P:6868/T:8168][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DD20000
+
+[2019-04-24 13:47:20.735][P:6868/T:8168][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:48:59.623
+[2019-04-24 13:48:59.623][P:8228/T:8432][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:48:59.623][P:8228/T:8432][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DE30000
+
+[2019-04-24 13:48:59.623][P:8228/T:8432][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:49:49.587
+[2019-04-24 13:49:49.587][P:1252/T:7440][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:49:49.589][P:1252/T:7440][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DCC0000
+
+[2019-04-24 13:49:49.589][P:1252/T:7440][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:50:44.980
+[2019-04-24 13:50:44.980][P:9208/T:8440][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:50:44.980][P:9208/T:8440][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DCA0000
+
+[2019-04-24 13:50:44.980][P:9208/T:8440][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:51:03.783
+[2019-04-24 13:51:03.783][P:8956/T:2584][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:51:03.783][P:8956/T:2584][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DB10000
+
+[2019-04-24 13:51:03.783][P:8956/T:2584][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:52:39.163
+[2019-04-24 13:52:39.163][P:7600/T:4680][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:52:39.163][P:7600/T:4680][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DB90000
+
+[2019-04-24 13:52:39.163][P:7600/T:4680][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:53:02.793
+[2019-04-24 13:53:02.793][P:7536/T:9156][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:53:02.793][P:7536/T:9156][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DD40000
+
+[2019-04-24 13:53:02.793][P:7536/T:9156][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 13:53:55.701
+[2019-04-24 13:53:55.701][P:2616/T:4208][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 13:53:55.702][P:2616/T:4208][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DD70000
+
+[2019-04-24 13:53:55.702][P:2616/T:4208][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 22:21:16.751
+[2019-04-24 22:21:16.761][P:7988/T:7992][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 22:21:16.775][P:7988/T:7992][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DBA0000
+
+[2019-04-24 22:21:16.775][P:7988/T:7992][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-24 22:28:39.218
+[2019-04-24 22:28:39.218][P:744/T:6480][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-24 22:28:39.218][P:744/T:6480][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DBD0000
+
+[2019-04-24 22:28:39.218][P:744/T:6480][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-04-29 21:41:58.084
+[2019-04-29 21:41:58.142][P:2748/T:5932][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-04-29 21:41:58.188][P:2748/T:5932][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E0A0000
+
+[2019-04-29 21:41:58.188][P:2748/T:5932][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
