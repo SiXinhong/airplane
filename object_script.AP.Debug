@@ -14,6 +14,7 @@ INPUT(
 ./debug\dahuainterface.o
 ./debug\configutil.o
 ./debug\hkinterface.o
+./debug\detectionpair.o
 ./debug\moc_mainwindow.o
 ./debug\moc_myinterface.o
 ./debug\moc_smallwidget.o

@@ -6,6 +6,7 @@
 #include "objectdetection.h"
 #include "configutil.h"
 
+class ObjectDetection;
 class MyInterface :  public QObject
 {
     Q_OBJECT
@@ -26,14 +27,12 @@ public:
     QString dirName;
     LONG nPort;//播放库通道号
     QPixmap pixmap;
-    ObjectDetection objectDetection;
+    ObjectDetection* objectDetection;
     QMutex mutex;
     QWaitCondition waitCondition;
     int imageStatus;// -1:初始化，不做任何动作0：无图片文件，1：正在被检测，2：检测成功，已存入this.pixmap，3：已读取过this.pixmap
     static MyInterface *interfaces[24];
     void setPixMap(QPixmap pixmap);
-
-public slots:
     void onDetectionFinish(QString filename, vector<ObjectItem>);
 };
 

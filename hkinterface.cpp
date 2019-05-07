@@ -8,6 +8,7 @@
 #include <opencv2\imgproc\imgproc.hpp>
 #include "cvutil.h"
 #include <QPainter>
+#include "detectionpair.h"
 
 HkInterface::HkInterface(int start):MyInterface(start)
 {
@@ -55,8 +56,8 @@ void CALLBACK DecCBFun(long nPort, char* pBuf, long nSize, FRAME_INFO* pFrameInf
             cv::imwrite(MyInterface::interfaces[nPort]->dirName.toStdString(),g_BGRImage);
             //qDebug()<< "write image to "<<interfaces[nPort]->dirName;
             MyInterface::interfaces[nPort]->imageStatus = 1;// 设置为正在被检测
-            MyInterface::interfaces[nPort]->objectDetection.createDetection();
-            MyInterface::interfaces[nPort]->objectDetection.detection(QString("../").append(MyInterface::interfaces[nPort]->dirName));
+            MyInterface::interfaces[nPort]->objectDetection->detection(DetectionPair(MyInterface::interfaces[nPort],
+                                                                                    QString("../").append(MyInterface::interfaces[nPort]->dirName)));
         }
         YUVImage.~Mat();
         MyInterface::interfaces[nPort]->mutex.unlock();
@@ -165,9 +166,6 @@ bool HkInterface::login(){
     }
 
     this->isLogin = true;
-    objectDetection.reconnect();
-    QObject::connect(&objectDetection, SIGNAL(detectionFinish(QString, vector<ObjectItem>))
-                     ,this, SLOT(onDetectionFinish(QString, vector<ObjectItem>)));
     imageStatus = 0;
     return true;
 }

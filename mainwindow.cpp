@@ -23,6 +23,7 @@
 #include "fullscreen.h"
 #include "fullthread.h"
 #include "smallwidget.h"
+#include "objectdetection.h"
 #include <QDebug>
 #include <QTime>
 
@@ -35,6 +36,12 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     ConfigUtil::readConfigs();
+    if(ConfigUtil::isOpenDetect){
+        ObjectDetection* od = ObjectDetection::getInstance();
+        od->reconnect();
+        od->createDetection();
+        od->start();
+    }
     QWidget* widget = new QWidget(this);
     gridlayout = new QGridLayout();
     this->setCentralWidget(widget);

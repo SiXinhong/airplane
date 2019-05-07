@@ -18,16 +18,6 @@ SmallThread::SmallThread(int number)
         for(int i=0;!inter->isLogin && i<5;i++){
             inter->login();
         }
-
-        // 没有连接摄像头时，按调试模式处理，显示一张测试检测图并检测标记
-        if(!inter->isLogin){
-            inter->objectDetection.reconnect();
-            QObject::connect(&inter->objectDetection, SIGNAL(detectionFinish(QString, vector<ObjectItem>))
-                             ,inter, SLOT(onDetectionFinish(QString, vector<ObjectItem>)),Qt::DirectConnection);
-            inter->isLogin = true;
-            inter->objectDetection.createDetection();
-            inter->objectDetection.detection(QString("../").append(inter->dirName));
-        }
     }
 }
 SmallThread::~SmallThread(){

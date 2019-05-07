@@ -14,6 +14,7 @@ MyInterface* MyInterface::interfaces[24];
 MyInterface::MyInterface(int start)
 {
     currentIndex = start;
+    this->objectDetection = ObjectDetection::getInstance();
     for(int i=0;i<50;i++){
         cache.append(QPixmap(QString("./image/%1.jpg").arg(i)));
     }
@@ -33,6 +34,7 @@ MyInterface::MyInterface(int start)
 }
 
 MyInterface::MyInterface(int start,QString ip,QString userName,QString passwd,int port){
+    this->objectDetection = ObjectDetection::getInstance();
     this->ip = ip;
     this->userName = userName;
     this->passwd = passwd;
@@ -52,14 +54,41 @@ void MyInterface::setLogin(QString ip,QString userName,QString passwd,int port){
     this->port = port;
 }
 void MyInterface::setPixMap(QPixmap pixmap){
-    QPainter painter(&pixmap);
-    QPen pen;
-    pen.setBrush(Qt::white);
-    painter.setPen(pen);
     int w = pixmap.width();
     int h = pixmap.height();
-    painter.drawLine(w/2 - 10, h/2, w/2 + 10, h/2);
-    painter.drawLine(w/2, h/2 - 10, w/2, h/2 + 10);
+    int a = h/2;
+    QPainter painter(&pixmap);
+    QPen pen;
+    pen.setBrush(Qt::black);
+    painter.setPen(pen);
+
+    // 正方形
+    painter.drawRect(w/2 - a/2, h/2 - a/2, a, a);
+    painter.drawLine(w/2 - a/2, h/2 - a/2, w/2 + a/2, h/2 + a/2);
+    painter.drawLine(w/2 - a/2, h/2 + a/2, w/2 + a/2, h/2 - a/2);
+
+    pen.setBrush(Qt::blue);
+    painter.setPen(pen);
+    int dist = w/30;
+    painter.drawLine(2*dist, h/2, w-2*dist, h/2);
+    painter.drawLine(w/2, 2*dist, w/2, h-2*dist);
+
+    int wCount = (w/2-3*dist)/dist;
+    int wStart = w/2 - wCount*dist;
+    int y1 = h/2 - dist;
+    int y2 = h/2 + dist;
+    int cnt = 0;
+    for(int x = wStart; cnt<2*wCount;cnt++,x+=dist){
+        painter.drawLine(x, y1, x, y2);
+    }
+    int hCount = (h/2-3*dist)/dist;
+    int hStart = h/2 - hCount*dist;
+    int x1 = w/2 - dist;
+    int x2 = w/2 + dist;
+    cnt = 0;
+    for(int y = hStart; cnt<2*hCount; cnt++,y+=dist){
+        painter.drawLine(x1, y, x2, y);
+    }
     this->pixmap = pixmap;
 }
 

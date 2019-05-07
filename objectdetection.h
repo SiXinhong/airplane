@@ -3,18 +3,26 @@
 #include<QtNetwork/QtNetwork>
 #include<QProcess>
 #include"imageobjects.h"
+#include "detectionpair.h"
+#include <QQueue>
+#include <QThread>
+#include <QMutex>
+#include <QWaitCondition>
+#include "detectionpair.h"
 
-class ObjectDetection: public QObject
+class DetectionPair;
+class ObjectDetection: public QThread
 {
     Q_OBJECT
 public:
-    ObjectDetection(QObject *parent=0);
+    static ObjectDetection* getInstance();
+    void run();
     QTcpSocket *client;
-    bool flag;
+    bool initFlag;// 初始化标记，createDetection且回调后置为true
     //初始化目标检测模型
     void createDetection();
     //检测 参数为文件名
-    void detection(QString filename);
+    void detection(DetectionPair pair);
     void reconnect();
     void runScript();
 public slots:
@@ -25,8 +33,15 @@ public slots:
 signals:
     //目标检测模型初始化完毕
     void createDetectionFinish();
-    //检测完毕，返回值为文件名和检测到的各种目标
-    void detectionFinish(QString filename, vector<ObjectItem>);
+private:
+    ObjectDetection();// 单例，不允许显式创建实例
+    static ObjectDetection *instance;
+    QQueue<DetectionPair> detectQueue;
+    //检测 参数为文件名
+    void detection(QString fileName);
+    QMutex mutex;
+    QWaitCondition waitCond;
+    bool isProcessing;// 是否正在处理检测
 };
 
 #endif // OBJECTDETECTION_H

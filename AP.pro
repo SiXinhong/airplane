@@ -36,7 +36,8 @@ SOURCES += main.cpp\
     objectitem.cpp \
     dahuainterface.cpp \
     configutil.cpp \
-    hkinterface.cpp
+    hkinterface.cpp \
+    detectionpair.cpp
 
 HEADERS  += mainwindow.h \
     myinterface.h \
@@ -51,8 +52,8 @@ HEADERS  += mainwindow.h \
     objectdetection.h \
     objectitem.h \
     dahuainterface.h \
-    PlayApi.h \
     configutil.h \
-    hkinterface.h
+    hkinterface.h \
+    detectionpair.h
 
 FORMS    += mainwindow.ui
