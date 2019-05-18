@@ -12,7 +12,7 @@ QString ConfigUtil::user[24];
 QString ConfigUtil::passwd[24];
 int ConfigUtil::port[24];
 bool ConfigUtil::isOpenDetect = false;
-
+bool ConfigUtil::isOpenDetectLocal = false;
 
 void ConfigUtil::readConfigs(){
     ConfigUtil::readCamConfigs();
@@ -53,4 +53,6 @@ void ConfigUtil::readOtherConfigs(){
     QSettings settings(iniFilePath,QSettings::IniFormat);
 
     ConfigUtil::isOpenDetect = settings.value(QString("common/openDetect")).toBool();
+
+    ConfigUtil::isOpenDetectLocal = settings.value(QString("common/openDetectLocal")).toBool();
 }

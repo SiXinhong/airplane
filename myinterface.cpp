@@ -93,14 +93,33 @@ void MyInterface::setPixMap(QPixmap pixmap){
 }
 
 QPixmap MyInterface::getPixmap(){
-    currentIndex = (currentIndex+qrand()%10)%50;
-    return cache.at(currentIndex);
+    if(!ConfigUtil::isOpenDetectLocal){
+        currentIndex = (currentIndex+qrand()%10)%50;
+        return cache.at(currentIndex);
+    }else{
+        //开启检测时，取缓存，且添加下一个被检测的图片
+        mutex.lock();
+        int count = 0;
+        while(this->imageStatus != 2 && count < 5)
+        {
+            count++;
+            waitCondition.wait(&mutex,50);
+        }
+        if(this->imageStatus == 2){
+            currentIndex = (currentIndex+qrand()%10)%50;
+            this->dirName = QString("./image/%1.jpg").arg(currentIndex);
+            this->objectDetection->detection(DetectionPair(this,QString("../")+this->dirName));
+            this->imageStatus = 1;// 设置为正在被检测
+        }
+        mutex.unlock();
+        return pixmap;
+    }
 }
 
 void MyInterface::onDetectionFinish(QString filename, vector<ObjectItem> items){
     qDebug()<<"onDetectionFinish";
     mutex.lock();
-    this->pixmap = QPixmap(this->dirName);
+    this->pixmap = QPixmap(filename.right(filename.length()-3));
     if(items.empty()){
         qDebug()<<"onDetectionFinish1";
         this->imageStatus = 2;
@@ -111,7 +130,9 @@ void MyInterface::onDetectionFinish(QString filename, vector<ObjectItem> items){
     QPainter painter(&pixmap);
     for (int i = 0; i < count; i++){
 //        qDebug()<<"filename:"<<filename<<","<<items[i].name;
-        painter.drawRect(QRect(items[i].startPoint,items[i].endPoint));
+        if(items[i].name == "car" || items[i].name == "person"){
+            painter.drawRect(QRect(items[i].startPoint,items[i].endPoint));
+        }
     }
     this->imageStatus = 2;
     waitCondition.wakeAll();

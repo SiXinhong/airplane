@@ -1,7 +1,8 @@
 from imageai.Detection import ObjectDetection
 import os
 import json
-
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 class MyDetection:
     def __init__(self):
         pass

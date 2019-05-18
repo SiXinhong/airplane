@@ -36,7 +36,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     ConfigUtil::readConfigs();
-    if(ConfigUtil::isOpenDetect){
+    if(ConfigUtil::isOpenDetect || ConfigUtil::isOpenDetectLocal){
         ObjectDetection* od = ObjectDetection::getInstance();
         od->reconnect();
         od->createDetection();

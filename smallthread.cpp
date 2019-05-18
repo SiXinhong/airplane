@@ -18,6 +18,13 @@ SmallThread::SmallThread(int number)
         for(int i=0;!inter->isLogin && i<5;i++){
             inter->login();
         }
+    }else{
+        //使用本地图片时，如果检测，先添加检测图片
+        if(ConfigUtil::isOpenDetectLocal){
+            inter->imageStatus = 1;// 设置为正在被检测
+            inter->dirName = QString("./image/0.jpg");
+            inter->objectDetection->detection(DetectionPair(inter,QString("../")+inter->dirName));
+        }
     }
 }
 SmallThread::~SmallThread(){

@@ -16,6 +16,8 @@ public:
 
     static bool isOpenDetect;
 
+    static bool isOpenDetectLocal;
+
 private:
     static void readCamConfigs();
     static void readOtherConfigs();

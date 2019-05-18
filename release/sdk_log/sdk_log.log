@@ -1276,3 +1276,148 @@ Begin Time:2019-04-29 21:41:58.084
 [2019-04-29 21:41:58.188][P:2748/T:5932][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E0A0000
 
 [2019-04-29 21:41:58.188][P:2748/T:5932][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-07 21:56:44.718
+[2019-05-07 21:56:44.718][P:11052/T:11952][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-07 21:56:44.718][P:11052/T:11952][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DC70000
+
+[2019-05-07 21:56:44.718][P:11052/T:11952][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-07 21:59:37.530
+[2019-05-07 21:59:37.530][P:8140/T:10356][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-07 21:59:37.530][P:8140/T:10356][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E090000
+
+[2019-05-07 21:59:37.530][P:8140/T:10356][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-07 22:00:04.315
+[2019-05-07 22:00:04.315][P:10656/T:8980][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-07 22:00:04.315][P:10656/T:8980][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E1E0000
+
+[2019-05-07 22:00:04.315][P:10656/T:8980][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-07 22:12:08.141
+[2019-05-07 22:12:08.141][P:10208/T:11364][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-07 22:12:08.141][P:10208/T:11364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E130000
+
+[2019-05-07 22:12:08.141][P:10208/T:11364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-07 22:15:58.445
+[2019-05-07 22:15:58.445][P:9296/T:10116][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-07 22:15:58.445][P:9296/T:10116][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E060000
+
+[2019-05-07 22:15:58.445][P:9296/T:10116][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-09 00:05:41.912
+[2019-05-09 00:05:41.912][P:12408/T:12964][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-09 00:05:41.912][P:12408/T:12964][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DAC0000
+
+[2019-05-09 00:05:41.912][P:12408/T:12964][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-10 22:16:03.658
+[2019-05-10 22:16:03.658][P:13604/T:5424][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-10 22:16:03.663][P:13604/T:5424][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DBF0000
+
+[2019-05-10 22:16:03.663][P:13604/T:5424][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-10 22:23:10.069
+[2019-05-10 22:23:10.069][P:964/T:13460][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-10 22:23:10.069][P:964/T:13460][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E140000
+
+[2019-05-10 22:23:10.069][P:964/T:13460][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-10 22:26:31.910
+[2019-05-10 22:26:31.910][P:10952/T:14140][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-10 22:26:31.910][P:10952/T:14140][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E2D0000
+
+[2019-05-10 22:26:31.910][P:10952/T:14140][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-10 22:30:29.745
+[2019-05-10 22:30:29.745][P:12024/T:7468][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-10 22:30:29.745][P:12024/T:7468][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E2F0000
+
+[2019-05-10 22:30:29.745][P:12024/T:7468][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-10 22:47:05.296
+[2019-05-10 22:47:05.296][P:13920/T:11940][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-10 22:47:05.296][P:13920/T:11940][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DBE0000
+
+[2019-05-10 22:47:05.296][P:13920/T:11940][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-10 22:47:15.687
+[2019-05-10 22:47:15.687][P:13088/T:5564][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-10 22:47:15.687][P:13088/T:5564][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E2C0000
+
+[2019-05-10 22:47:15.687][P:13088/T:5564][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-10 22:51:31.566
+[2019-05-10 22:51:31.566][P:8388/T:11592][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-10 22:51:31.568][P:8388/T:11592][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DD50000
+
+[2019-05-10 22:51:31.568][P:8388/T:11592][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-10 22:53:51.676
+[2019-05-10 22:53:51.676][P:11404/T:10092][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-10 22:53:51.676][P:11404/T:10092][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DC30000
+
+[2019-05-10 22:53:51.676][P:11404/T:10092][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-10 22:53:59.235
+[2019-05-10 22:53:59.235][P:14136/T:8132][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-10 22:53:59.235][P:14136/T:8132][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E390000
+
+[2019-05-10 22:53:59.235][P:14136/T:8132][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-10 22:55:28.419
+[2019-05-10 22:55:28.419][P:9548/T:14228][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-10 22:55:28.419][P:9548/T:14228][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E1D0000
+
+[2019-05-10 22:55:28.419][P:9548/T:14228][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 11:33:08.141
+[2019-05-11 11:33:08.149][P:12696/T:13296][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 11:33:08.152][P:12696/T:13296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E140000
+
+[2019-05-11 11:33:08.152][P:12696/T:13296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 11:40:00.624
+[2019-05-11 11:40:00.624][P:13488/T:12116][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 11:40:00.624][P:13488/T:12116][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E120000
+
+[2019-05-11 11:40:00.624][P:13488/T:12116][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 11:45:37.470
+[2019-05-11 11:45:37.470][P:13528/T:11944][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 11:45:37.470][P:13528/T:11944][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E1A0000
+
+[2019-05-11 11:45:37.470][P:13528/T:11944][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 11:46:23.055
+[2019-05-11 11:46:23.055][P:12824/T:12860][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 11:46:23.055][P:12824/T:12860][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E470000
+
+[2019-05-11 11:46:23.055][P:12824/T:12860][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 11:47:26.552
+[2019-05-11 11:47:26.552][P:11288/T:11980][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 11:47:26.552][P:11288/T:11980][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DD50000
+
+[2019-05-11 11:47:26.552][P:11288/T:11980][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 11:47:46.112
+[2019-05-11 11:47:46.112][P:6472/T:13796][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 11:47:46.112][P:6472/T:13796][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E1D0000
+
+[2019-05-11 11:47:46.112][P:6472/T:13796][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 11:49:08.467
+[2019-05-11 11:49:08.467][P:13288/T:7276][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 11:49:08.467][P:13288/T:7276][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E270000
+
+[2019-05-11 11:49:08.467][P:13288/T:7276][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 12:08:06.621
+[2019-05-11 12:08:06.621][P:11808/T:9228][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 12:08:06.621][P:11808/T:9228][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E2B0000
+
+[2019-05-11 12:08:06.621][P:11808/T:9228][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 12:11:10.277
+[2019-05-11 12:11:10.277][P:13624/T:1376][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 12:11:10.277][P:13624/T:1376][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E140000
+
+[2019-05-11 12:11:10.277][P:13624/T:1376][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 12:12:14.575
+[2019-05-11 12:12:14.575][P:1508/T:8580][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 12:12:14.575][P:1508/T:8580][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DF60000
+
+[2019-05-11 12:12:14.575][P:1508/T:8580][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 12:13:20.731
+[2019-05-11 12:13:20.731][P:10236/T:14056][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 12:13:20.731][P:10236/T:14056][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DD80000
+
+[2019-05-11 12:13:20.731][P:10236/T:14056][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-11 12:15:41.213
+[2019-05-11 12:15:41.213][P:12440/T:10304][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-11 12:15:41.213][P:12440/T:10304][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E140000
+
+[2019-05-11 12:15:41.213][P:12440/T:10304][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-18 17:26:38.149
+[2019-05-18 17:26:38.149][P:892/T:3004][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-18 17:26:38.151][P:892/T:3004][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E190000
+
+[2019-05-18 17:26:38.151][P:892/T:3004][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
