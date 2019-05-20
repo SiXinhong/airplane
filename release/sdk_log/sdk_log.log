@@ -1421,3 +1421,8 @@ Begin Time:2019-05-18 17:26:38.149
 [2019-05-18 17:26:38.151][P:892/T:3004][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000E190000
 
 [2019-05-18 17:26:38.151][P:892/T:3004][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2019-05-20 22:59:09.077
+[2019-05-20 22:59:09.077][P:8992/T:9108][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-05-20 22:59:09.079][P:8992/T:9108][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 000000000DCE0000
+
+[2019-05-20 22:59:09.079][P:8992/T:9108][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
